@@ -1,0 +1,205 @@
+(footprint "SOIC-16W_7.5x10.3mm_P1.27mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "PowerSSO, 16 Pin (https://www.st.com/resource/en/datasheet/vnd7020aj.pdf)")
+	(tags "PowerSSO SO")
+	(property "Reference" "REF**"
+		(at 0 -3.4 0)
+		(layer "F.SilkS")
+		(uuid "f521f196-f966-48ce-876b-5232ccc88126")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOIC-16W_7.5x10.3mm_P1.27mm"
+		(at 0 3.4 0)
+		(layer "F.Fab")
+		(uuid "bfd34995-e18b-46ac-8638-67f40560f231")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "67eb95a2-bcbb-4e0f-bad6-a7d88eae2d2d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f691c359-39c3-4e67-b160-34b07b523f13")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "package/gullwing"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3b3fc80c-ddf3-4f5b-b1e6-07691e96d40a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -1.34 -5.98)
+		(end -0.54 -5.58)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Cu")
+		(uuid "a62bed6e-7b8f-45e1-8633-c1312d0970b5")
+	)
+	(fp_rect
+		(start -1.34 -4.72)
+		(end -0.54 -4.32)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Cu")
+		(uuid "c05619ad-aeff-46e3-af51-94f1c9dcae6f")
+	)
+	(fp_rect
+		(start -1.325 -9.7)
+		(end -0.525 -9.3)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Cu")
+		(uuid "3e604fc0-39de-494a-827e-da52ffe84c2c")
+	)
+	(fp_rect
+		(start -1.3 -8.7)
+		(end -0.5 -8.3)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Cu")
+		(uuid "fbebecd8-566a-4378-8b8d-93b06920d044")
+	)
+	(fp_line
+		(start -1.4 -5.785)
+		(end 8.9 -5.785)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "9958d5ab-2de6-4a55-9c55-db7698e968d9")
+	)
+	(fp_line
+		(start -1.4 -5.15)
+		(end 8.9 -5.15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "3f133b7c-b654-4d32-a270-ecf9b2f0cdd9")
+	)
+	(fp_line
+		(start -1.4 -4.515)
+		(end 8.9 -4.515)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "ab99cbdf-6f10-4532-8791-b52ff0ab8754")
+	)
+	(fp_line
+		(start 1.2 -5.05)
+		(end 1.35 -5.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "17806bb8-7b6b-4991-904d-35d437d400bc")
+	)
+	(fp_line
+		(start 3.75 -10.3)
+		(end 3.75 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "9cb12cbf-1750-4b33-b980-194364eb24fd")
+	)
+	(fp_rect
+		(start -1.4 0)
+		(end 8.9 -10.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "45b524c5-ed84-4347-87ca-97f460c9fb16")
+	)
+	(fp_rect
+		(start 0 -10.3)
+		(end 7.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "0dfd5578-4adf-4694-938e-36f723ccd750")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "0da25690-09c9-4da3-af95-a6a9dd11682c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/PowerSSO-16-1EP_3.9x4.9mm_P0.5mm_EP2.5x3.61mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

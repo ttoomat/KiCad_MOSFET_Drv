@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Tamara") (type "KiCad") (uri "${KIPRJMOD}/Tamara.pretty") (options "") (descr ""))
+)
