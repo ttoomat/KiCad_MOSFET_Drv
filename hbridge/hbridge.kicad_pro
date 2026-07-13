@@ -644,17 +644,26 @@
     "top_level_sheets": [
       {
         "filename": "hbridge.kicad_sch",
-        "name": "Корневой лист",
+        "name": "драйверы",
         "uuid": "8009c529-6dc1-42cd-8cc7-a909833d3244"
+      },
+      {
+        "filename": "питание.kicad_sch",
+        "name": "питание",
+        "uuid": "2ca728bc-601a-44e1-8d59-41d5093f57eb"
       }
     ],
-    "used_designators": "Q1-5,R13-36,J1-19,D7-18,#PWR27-30,#PWR65-68,#PWR78-81,#PWR88-116,C1-6,TP1-12,U1,U5-8",
+    "used_designators": "Q1-5,U1-2,U4-9,U14,U20,R13-36,TP1-12,J1-19,D7-18,C1-6,C11,C24-25,#PWR1-2,#PWR8-11,#PWR27-30,#PWR43-45,#PWR65-68,#PWR78-83,#PWR88-116",
     "variants": []
   },
   "sheets": [
     [
       "8009c529-6dc1-42cd-8cc7-a909833d3244",
-      "Корневой лист"
+      "драйверы"
+    ],
+    [
+      "2ca728bc-601a-44e1-8d59-41d5093f57eb",
+      "питание"
     ]
   ],
   "text_variables": {},
