@@ -1273,7 +1273,7 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "GND_DRV2")
+			(net "GND_DRV2_H")
 			(pinfunction "Pin_3_3")
 			(pintype "passive")
 			(uuid "7d4326d8-b295-4c56-a6a8-e16455829d60")
@@ -2466,13 +2466,13 @@
 	(footprint "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "2ba11b3e-ab3c-4735-8b86-9bd8f7a80898")
-		(at 243.96 74.5 90)
+		(at 243.2175 89.775 90)
 		(descr "Terminal Block Xinya XY308-2.54-2P, 2 pins, pitch 2.54mm, size 5.58x6.5mm, drill diameter 1.2mm, pad diameter 2mm, http://www.xinyaelectronic.com/product/xy308-254")
 		(tags "THT Terminal Block Xinya XY308-2.54-2P pitch 2.54mm size 5.58x6.5mm drill 1.2mm pad 2mm")
 		(property "Reference" "J19"
 			(at 1.27 -4.22 90)
 			(layer "F.SilkS")
-			(uuid "82cd6fd3-efa3-4de5-9dcb-7353d805465c")
+			(uuid "2c4983fc-f1bb-4ccb-aea6-45bf81b7f789")
 			(effects
 				(font
 					(size 1 1)
@@ -2483,7 +2483,7 @@
 		(property "Value" "24V"
 			(at 1.27 4.52 90)
 			(layer "F.Fab")
-			(uuid "404b1fc2-2352-4e92-bf08-7e7a7d4595c0")
+			(uuid "c992150b-70f7-47d6-a5c4-f33585d64e89")
 			(effects
 				(font
 					(size 1 1)
@@ -2495,7 +2495,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4f5f7f54-395a-46b3-b82b-8817e318b2d0")
+			(uuid "719d778d-56b5-46bd-89f3-da25996fda63")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2506,7 +2506,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3271ec34-7bba-4560-9440-4329f0d4a06e")
+			(uuid "db2a2886-2b3a-4a71-94a3-a52f9c8cc829")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3377,7 +3377,7 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "GND_DRV2")
+			(net "GND_DRV2_L")
 			(pinfunction "Pin_3_3")
 			(pintype "passive")
 			(uuid "b69af4fa-aeac-4c58-be2b-9e2421d6f464")
@@ -3670,7 +3670,7 @@
 	(footprint "Package_DIP:DIP-24_18.0mmx34.29mm_W15.24mm_LongPads"
 		(layer "F.Cu")
 		(uuid "582a4864-9fd8-47d8-a747-402599d5742e")
-		(at 199.18 124.24 90)
+		(at 191.53 125.12 90)
 		(descr "24-lead though-hole mounted DIP package, row spacing 15.24 mm (600 mils) https://www.mouser.at/datasheet/2/389/m48t02-1849963.pdf")
 		(tags "THT DIP DIL PDIP 2.54mm 15.24mm 600mil PCDIP24 CAPHAT M48T02 M48T12 M48Z02 M48Z12")
 		(property "Reference" "U9"
@@ -4118,13 +4118,13 @@
 	(footprint "Capacitor_THT:CP_Radial_D7.5mm_P2.50mm"
 		(layer "F.Cu")
 		(uuid "7c3f3fa1-aea1-4e56-8fca-4679b4496c63")
-		(at 233 68.338606 -90)
+		(at 226 87.25 -90)
 		(descr "CP, Radial series, Radial, pin pitch=2.50mm, diameter=7.5mm, height=8mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.50mm diameter 7.5mm height 8mm Electrolytic Capacitor")
 		(property "Reference" "C11"
 			(at 1.25 -5 90)
 			(layer "F.SilkS")
-			(uuid "68644128-83dd-4070-8008-d79925d02dd9")
+			(uuid "55919116-f354-4923-87f5-4c8435f64b89")
 			(effects
 				(font
 					(size 1 1)
@@ -4135,7 +4135,7 @@
 		(property "Value" "100-220uF/50V"
 			(at 1.25 5 90)
 			(layer "F.Fab")
-			(uuid "435aa597-8064-4ceb-b9a9-7c6e9f8ba688")
+			(uuid "e384524d-b35d-491c-a084-70f0e404dd6e")
 			(effects
 				(font
 					(size 1 1)
@@ -4147,7 +4147,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "448e3b9b-52c8-47cb-817b-41b0c3dac564")
+			(uuid "693dec3c-f0a0-4447-b5a1-517e58e16bc2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4158,7 +4158,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2dd38062-0f4e-4615-84af-d546f7de9be3")
+			(uuid "4ea60858-6d2d-4f6a-8473-4bc132cc0f10")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5800,13 +5800,13 @@
 	(footprint "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-6P_1x06_P2.54mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "8535abfb-c9fc-460f-9ca1-d1197cb4a12f")
-		(at 203.8 88.5)
+		(at 191.55 94.25)
 		(descr "Terminal Block Xinya XY308-2.54-6P, 6 pins, pitch 2.54mm, size 15.7x6.5mm, drill diameter 1.2mm, pad diameter 2mm, http://www.xinyaelectronic.com/product/xy308-254")
 		(tags "THT Terminal Block Xinya XY308-2.54-6P pitch 2.54mm size 15.7x6.5mm drill 1.2mm pad 2mm")
 		(property "Reference" "U20"
 			(at 6.35 -4.22 0)
 			(layer "F.SilkS")
-			(uuid "2ceba0d9-3515-4722-bb46-7a6eabe097ab")
+			(uuid "2179ca53-0ab6-45da-81ea-aa06d15f2a87")
 			(effects
 				(font
 					(size 1 1)
@@ -5817,7 +5817,7 @@
 		(property "Value" "B2412S-2WR3"
 			(at 6.35 4.52 0)
 			(layer "F.Fab")
-			(uuid "520cf2db-15e0-475e-b9c4-9622f47d8f6e")
+			(uuid "191d1df0-8085-4761-9f0c-30bc5817c464")
 			(effects
 				(font
 					(size 1 1)
@@ -5829,7 +5829,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fb2f7b42-0a1d-4419-89a8-c2f75c14c282")
+			(uuid "7081f112-a0aa-497b-8b87-cb70b2960c15")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5840,7 +5840,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0094eb69-a9c6-44e6-954c-4e1200c1730b")
+			(uuid "53b5a13b-6574-45df-9fcd-beeaeea1dc30")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8094,7 +8094,7 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "GND_DRV2")
+			(net "GND_DRV2_H")
 			(pinfunction "Pin_3_3")
 			(pintype "passive")
 			(uuid "26b52381-c180-493a-ad3a-6ab13f00ddcc")
@@ -8523,7 +8523,7 @@
 	(footprint "Package_DIP:DIP-24_18.0mmx34.29mm_W15.24mm_LongPads"
 		(layer "F.Cu")
 		(uuid "d0f64bb6-2d3b-438d-ab46-b686ed433ebb")
-		(at 195.03 65.12 90)
+		(at 191.53 65.62 90)
 		(descr "24-lead though-hole mounted DIP package, row spacing 15.24 mm (600 mils) https://www.mouser.at/datasheet/2/389/m48t02-1849963.pdf")
 		(tags "THT DIP DIL PDIP 2.54mm 15.24mm 600mil PCDIP24 CAPHAT M48T02 M48T12 M48Z02 M48Z12")
 		(property "Reference" "U4"
@@ -9892,7 +9892,7 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "GND_DRV2")
+			(net "GND_DRV2_L")
 			(pinfunction "Pin_3_3")
 			(pintype "passive")
 			(uuid "4abdbe3c-9dfa-4401-8d3c-cdc3728fda48")
@@ -9956,7 +9956,7 @@
 	)
 	(gr_rect
 		(start 40 37.33)
-		(end 251.5 153.83)
+		(end 251.5 144)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -9964,6 +9964,16 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "922ab76f-d9ad-47e2-bd78-fd2dfcea03bb")
+	)
+	(gr_line
+		(start 24.75 95.75)
+		(end 180.25 95.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "7b4d618b-9897-468c-85e4-9a4d5f8e2a44")
 	)
 	(gr_rect
 		(start 45.8 69.98)
@@ -10116,7 +10126,7 @@
 		(uuid "185f79a6-70cd-4bc1-8047-bfe38ddb7b97")
 	)
 	(gr_text "+24"
-		(at 204 98 90)
+		(at 191.75 103.75 90)
 		(layer "F.SilkS")
 		(uuid "8fe4f198-7bfd-48cd-bfb6-287198538751")
 		(effects
@@ -10128,7 +10138,7 @@
 		)
 	)
 	(gr_text "GND_IN"
-		(at 207 99 90)
+		(at 194.75 104.75 90)
 		(layer "F.SilkS")
 		(uuid "ebfa6c8f-e107-4435-b31f-ee9788553c59")
 		(effects
@@ -10140,7 +10150,7 @@
 		)
 	)
 	(gr_text "GND_OUT"
-		(at 212 100.5 90)
+		(at 199.75 106.25 90)
 		(layer "F.SilkS")
 		(uuid "2706bdea-ef60-428a-bffd-ccf02030ed48")
 		(effects
@@ -10152,7 +10162,7 @@
 		)
 	)
 	(gr_text "+12"
-		(at 217 97.5 90)
+		(at 204.75 103.25 90)
 		(layer "F.SilkS")
 		(uuid "ff3dab47-77af-49f3-b72e-c51f9c812e01")
 		(effects
@@ -10164,7 +10174,7 @@
 		)
 	)
 	(gr_text "Q1, Q3 - higher AC switch\nQ2, Q4 - lower AC switch"
-		(at 198 141.5 0)
+		(at 197 138.5 0)
 		(layer "F.SilkS")
 		(uuid "a3be1f60-4e27-43fe-9e04-1b5471713ac4")
 		(effects
@@ -10328,38 +10338,6 @@
 		(uuid "ff6b7be0-de04-4532-8934-285f160dec03")
 	)
 	(segment
-		(start 113.7 97.8675)
-		(end 112.2375 99.33)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "GND_DRV1")
-		(uuid "22591015-aedc-47cb-bcb1-363992ef8ff4")
-	)
-	(segment
-		(start 112.2375 99.33)
-		(end 114.3625 99.33)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "GND_DRV1")
-		(uuid "4c6987fd-a4f4-46fb-a83d-8931e79009a1")
-	)
-	(segment
-		(start 113.7 96.58)
-		(end 113.7 90.28)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "GND_DRV1")
-		(uuid "4f0b26cb-c237-4052-9828-7e8c8f1ce29b")
-	)
-	(segment
-		(start 113.7 96.58)
-		(end 113.7 97.8675)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "GND_DRV1")
-		(uuid "82dc796c-d30f-448f-a5ec-d8c42efe0999")
-	)
-	(segment
 		(start 111.4 98.0925)
 		(end 110.1625 99.33)
 		(width 0.2)
@@ -10390,6 +10368,38 @@
 		(layer "F.Cu")
 		(net "+12V")
 		(uuid "9591a436-6ba5-47b0-a1c3-b6049f0ccdc1")
+	)
+	(segment
+		(start 113.7 97.8675)
+		(end 112.2375 99.33)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "GND_DRV1")
+		(uuid "22591015-aedc-47cb-bcb1-363992ef8ff4")
+	)
+	(segment
+		(start 112.2375 99.33)
+		(end 114.3625 99.33)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "GND_DRV1")
+		(uuid "4c6987fd-a4f4-46fb-a83d-8931e79009a1")
+	)
+	(segment
+		(start 113.7 96.58)
+		(end 113.7 90.28)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "GND_DRV1")
+		(uuid "4f0b26cb-c237-4052-9828-7e8c8f1ce29b")
+	)
+	(segment
+		(start 113.7 96.58)
+		(end 113.7 97.8675)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "GND_DRV1")
+		(uuid "82dc796c-d30f-448f-a5ec-d8c42efe0999")
 	)
 	(zone
 		(net "GND_DRV1")
