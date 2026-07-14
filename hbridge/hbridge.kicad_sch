@@ -2571,6 +2571,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+12V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
@@ -2940,6 +3079,56 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text "Q1"
+		(exclude_from_sim no)
+		(at 169.418 86.106 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "403919d3-acf1-4f02-a562-4652db63ac06")
+	)
+	(text "Q4"
+		(exclude_from_sim no)
+		(at 358.394 222.758 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9f66ccb7-d71f-4591-8f0d-013b62c0970a")
+	)
+	(text "Q2"
+		(exclude_from_sim no)
+		(at 385.826 102.108 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ae88cdae-90f5-4c37-aa26-76084a49c0b1")
+	)
+	(text "? мб нужна логика защиты полумоста от мертвого времени и тд?"
+		(exclude_from_sim no)
+		(at 72.644 257.302 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d9da11dd-c559-4f03-a740-fd7fc63d5d6a")
+	)
+	(text "Q3"
+		(exclude_from_sim no)
+		(at 152.146 186.944 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ec94eb6a-cc74-43f1-b44e-5f4cbee59eb0")
 	)
 	(junction
 		(at 247.65 190.5)
@@ -3372,6 +3561,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5cc70bf-b226-4fb5-935e-69bc1de187ce")
+	)
+	(junction
+		(at 252.73 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c693ca11-2d81-4396-aa39-bba36049320a")
 	)
 	(junction
 		(at 288.29 222.25)
@@ -5549,6 +5744,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 25.4) (xy 264.16 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "893a4cae-9e0b-4e92-973e-ca85997a36d4")
+	)
+	(wire
+		(pts
 			(xy 257.81 193.04) (xy 257.81 198.12)
 		)
 		(stroke
@@ -6576,6 +6781,16 @@
 			(type default)
 		)
 		(uuid "c9d7b1b1-2d5e-4772-a9a4-2dc43fb02f89")
+	)
+	(wire
+		(pts
+			(xy 252.73 26.67) (xy 264.16 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca2bc2e8-e28a-4bd0-adbb-f63f316536c9")
 	)
 	(wire
 		(pts
@@ -8646,7 +8861,7 @@
 				)
 			)
 		)
-		(property "Value" "-15_DRV2"
+		(property "Value" "-15_DRV2_L"
 			(at 284.734 227.838 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9044,7 +9259,7 @@
 				)
 			)
 		)
-		(property "Value" "-15_DRV2"
+		(property "Value" "-15_DRV2_H"
 			(at 77.724 191.008 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9205,7 +9420,7 @@
 				)
 			)
 		)
-		(property "Value" "-15_DRV2"
+		(property "Value" "-15_DRV2_H"
 			(at 85.09 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9521,7 +9736,7 @@
 				)
 			)
 		)
-		(property "Value" "GND_DRV2"
+		(property "Value" "GND_DRV2_H"
 			(at 98.552 191.008 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10001,7 +10216,7 @@
 				)
 			)
 		)
-		(property "Value" "+15_DRV2"
+		(property "Value" "+15_DRV2_H"
 			(at 75.946 158.496 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10162,7 +10377,7 @@
 				)
 			)
 		)
-		(property "Value" "GND_DRV2"
+		(property "Value" "GND_DRV2_L"
 			(at 305.562 227.838 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10807,7 +11022,7 @@
 				)
 			)
 		)
-		(property "Value" "GND_DRV2"
+		(property "Value" "GND_DRV2_H"
 			(at 109.982 89.408 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11013,6 +11228,84 @@
 			(project "hbridge"
 				(path "/8009c529-6dc1-42cd-8cc7-a909833d3244"
 					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 264.16 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4bfb4c65-4904-47c1-9320-88ed225f50f9")
+		(property "Reference" "#PWR03"
+			(at 264.16 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 264.16 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 264.16 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ccab24db-39b6-477c-9714-c287f9ea95c5")
+		)
+		(instances
+			(project "hbridge"
+				(path "/8009c529-6dc1-42cd-8cc7-a909833d3244"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -11768,7 +12061,7 @@
 				)
 			)
 		)
-		(property "Value" "GND_DRV2"
+		(property "Value" "GND_DRV2_L"
 			(at 290.322 126.238 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13425,7 +13718,7 @@
 				)
 			)
 		)
-		(property "Value" "+15_DRV2"
+		(property "Value" "+15_DRV2_L"
 			(at 267.716 93.726 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14036,7 +14329,7 @@
 				)
 			)
 		)
-		(property "Value" "+15_DRV2"
+		(property "Value" "+15_DRV2_L"
 			(at 282.956 195.326 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15693,7 +15986,7 @@
 				)
 			)
 		)
-		(property "Value" "+15_DRV2"
+		(property "Value" "+15_DRV2_H"
 			(at 87.376 56.896 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17341,7 +17634,7 @@
 				)
 			)
 		)
-		(property "Value" "-15_DRV2"
+		(property "Value" "-15_DRV2_L"
 			(at 269.494 126.238 0)
 			(show_name no)
 			(do_not_autoplace no)
