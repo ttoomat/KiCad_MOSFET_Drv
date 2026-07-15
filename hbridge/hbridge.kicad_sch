@@ -3090,6 +3090,16 @@
 		)
 		(uuid "403919d3-acf1-4f02-a562-4652db63ac06")
 	)
+	(text "J13, J14 - просто измерительные точки\nсначала подразумевалось, что 3.3В можно либо снаружи подать и тогда на J13, J14 перемычки,\nлибо запаять вот это LDO"
+		(exclude_from_sim no)
+		(at 303.022 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7d99e1a9-173d-4021-8ca5-cc69b72f41fc")
+	)
 	(text "Q4"
 		(exclude_from_sim no)
 		(at 358.394 222.758 0)
@@ -3479,6 +3489,12 @@
 		(uuid "8b9086d8-ebff-4d95-b902-29d1ab8a8138")
 	)
 	(junction
+		(at 222.25 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c4cc1a6-ebf4-4ad1-bd93-0b42faeb415f")
+	)
+	(junction
 		(at 148.59 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3723,6 +3739,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f81349e1-c585-4356-b99d-47a81f27b92a")
+	)
+	(junction
+		(at 218.44 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc3370d5-1beb-43b3-aa71-56bd527f3dd3")
+	)
+	(junction
+		(at 30.48 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd60c541-68f4-4328-b6f9-4d164c94e344")
 	)
 	(no_connect
 		(at 314.96 72.39)
@@ -4015,6 +4043,16 @@
 			(type default)
 		)
 		(uuid "0fb02fae-f1b1-4971-a231-3b499b0c925d")
+	)
+	(wire
+		(pts
+			(xy 30.48 137.16) (xy 48.26 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "108ebb4e-aa1d-4a7f-8c51-a1baf972cc7b")
 	)
 	(wire
 		(pts
@@ -4418,7 +4456,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 96.52) (xy 222.25 81.28)
+			(xy 222.25 96.52) (xy 222.25 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4435,6 +4473,16 @@
 			(type default)
 		)
 		(uuid "2a6a12c5-82f8-443e-8ec6-345f15882232")
+	)
+	(wire
+		(pts
+			(xy 48.26 101.6) (xy 193.04 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2af6d944-1853-428c-a0c1-45a2983de602")
 	)
 	(wire
 		(pts
@@ -4988,16 +5036,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 146.05) (xy 40.64 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53f06927-b457-4fd2-9ffa-a0345f317864")
-	)
-	(wire
-		(pts
 			(xy 325.12 87.63) (xy 327.66 87.63)
 		)
 		(stroke
@@ -5278,6 +5316,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 80.01) (xy 218.44 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66bcb28c-b65f-491a-b0b6-47f30ebb5bc5")
+	)
+	(wire
+		(pts
 			(xy 375.92 212.09) (xy 375.92 189.23)
 		)
 		(stroke
@@ -5395,6 +5443,16 @@
 			(type default)
 		)
 		(uuid "6c341d9a-6e3a-4bed-8633-d5524e1306d0")
+	)
+	(wire
+		(pts
+			(xy 218.44 72.39) (xy 218.44 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c5882f8-0924-4ee7-a47b-0ef0146e5ad5")
 	)
 	(wire
 		(pts
@@ -5598,6 +5656,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 101.6) (xy 193.04 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75d51e7f-6e30-421d-a925-550f3a25a01f")
+	)
+	(wire
+		(pts
 			(xy 148.59 133.35) (xy 148.59 137.16)
 		)
 		(stroke
@@ -5735,6 +5803,16 @@
 			(type default)
 		)
 		(uuid "7cdbb650-11ed-43f2-a7d9-d598de4c5725")
+	)
+	(wire
+		(pts
+			(xy 30.48 137.16) (xy 30.48 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e3effa4-bdcc-4b04-8be2-525cc9799d41")
 	)
 	(wire
 		(pts
@@ -5995,6 +6073,16 @@
 			(type default)
 		)
 		(uuid "92e8198b-ca0e-4d08-a929-2fb73621956f")
+	)
+	(wire
+		(pts
+			(xy 193.04 80.01) (xy 218.44 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9340090d-c496-4d96-889a-79207962ec59")
 	)
 	(wire
 		(pts
@@ -6888,6 +6976,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 137.16) (xy 48.26 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c513daf3-3d47-493a-8be5-9c1cf25c20b9")
+	)
+	(wire
+		(pts
 			(xy 293.37 199.39) (xy 285.75 199.39)
 		)
 		(stroke
@@ -6905,6 +7003,16 @@
 			(type default)
 		)
 		(uuid "c64abfd2-3146-401a-b2e0-11ee8309a8d1")
+	)
+	(wire
+		(pts
+			(xy 218.44 86.36) (xy 222.25 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7238007-709b-4cec-8236-62ab0314acb1")
 	)
 	(wire
 		(pts
@@ -7185,6 +7293,16 @@
 			(type default)
 		)
 		(uuid "d9e4212a-933a-4c34-91ab-9cf52c42de9d")
+	)
+	(wire
+		(pts
+			(xy 222.25 86.36) (xy 222.25 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daae3126-cd98-4298-817d-6620c9df2d9c")
 	)
 	(wire
 		(pts
@@ -7485,6 +7603,16 @@
 			(type default)
 		)
 		(uuid "efc80f49-6e66-4c3e-a30c-fc29616cf47d")
+	)
+	(wire
+		(pts
+			(xy 30.48 146.05) (xy 40.64 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f01604cb-a579-408a-85ca-dea711093fad")
 	)
 	(wire
 		(pts
@@ -11860,7 +11988,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 			(at 227.33 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -14002,7 +14130,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 			(at 252.73 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -16400,6 +16528,85 @@
 			(project "hbridge"
 				(path "/8009c529-6dc1-42cd-8cc7-a909833d3244"
 					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 223.52 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d251d86b-5815-4f94-90c6-15525e402a9f")
+		(property "Reference" "J21"
+			(at 224.79 71.1199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 224.79 73.6599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector:Banana_Jack_1Pin"
+			(at 223.52 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 223.52 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c3b4276e-4c48-4957-98f3-d2f324aea66e")
+		)
+		(instances
+			(project "hbridge"
+				(path "/8009c529-6dc1-42cd-8cc7-a909833d3244"
+					(reference "J21")
 					(unit 1)
 				)
 			)
