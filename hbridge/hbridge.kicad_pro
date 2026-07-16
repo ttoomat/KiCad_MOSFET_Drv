@@ -643,27 +643,30 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "hbridge.kicad_sch",
-        "name": "драйверы",
-        "uuid": "8009c529-6dc1-42cd-8cc7-a909833d3244"
-      },
-      {
-        "filename": "питание.kicad_sch",
-        "name": "питание",
-        "uuid": "2ca728bc-601a-44e1-8d59-41d5093f57eb"
+        "filename": "плата_полумоста.kicad_sch",
+        "name": "Плата полумоста",
+        "uuid": "96bc687b-1f0f-4b2f-95bf-a0725acd0403"
       }
     ],
-    "used_designators": "Q1-5,U1-2,U4-9,U14,U20,R13-36,TP1-12,J1-21,D7-18,C1-6,C11,C24-25,#PWR1-3,#PWR8-11,#PWR27-30,#PWR43-45,#PWR65-68,#PWR78-83,#PWR88-117",
+    "used_designators": "U?C1,U?B1,#PWR1-52,#PWR65-68,#PWR78-83,#PWR88-117,U?D1,C1-13,C24-25,J1-39,TP1-24,R1-48,Q1-8,U5A1,U5B1,D1-24,U1-12,U14,U20,U5C1,U5D1,U?A1",
     "variants": []
   },
   "sheets": [
     [
-      "8009c529-6dc1-42cd-8cc7-a909833d3244",
+      "96bc687b-1f0f-4b2f-95bf-a0725acd0403",
+      "Плата полумоста"
+    ],
+    [
+      "26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d",
       "драйверы"
     ],
     [
-      "2ca728bc-601a-44e1-8d59-41d5093f57eb",
-      "питание"
+      "5c304d23-1a3b-43ed-8f7a-219a4f2f60a2",
+      "Питание драйверов"
+    ],
+    [
+      "08e291a1-59e7-456b-83cd-460afac67c80",
+      "Соединение с МК"
     ]
   ],
   "text_variables": {},
