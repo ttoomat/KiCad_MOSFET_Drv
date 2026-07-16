@@ -285,6 +285,16 @@
 					)
 				)
 			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_keywords" "NPN DC Optocoupler"
 				(at 0 0 0)
 				(show_name no)
@@ -331,114 +341,9 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -5.08 -5.08)
-					(end 5.08 -12.7)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -6.35) (xy -2.54 -6.35) (xy -2.54 -10.16) (xy -2.54 -8.255)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -5.08 -13.97)
-					(end 5.08 -21.59)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -15.24) (xy -2.54 -15.24) (xy -2.54 -19.05) (xy -2.54 -17.145)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -5.08 -22.86)
-					(end 5.08 -30.48)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -24.13) (xy -2.54 -24.13) (xy -2.54 -27.94) (xy -2.54 -26.035)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy -3.175 -0.635) (xy -1.905 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 -9.525) (xy -1.905 -9.525)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 -18.415) (xy -1.905 -18.415)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 -27.305) (xy -1.905 -27.305)
 					)
 					(stroke
 						(width 0.254)
@@ -474,78 +379,6 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -9.525) (xy -2.54 -11.43) (xy -5.08 -11.43)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -9.525) (xy -3.175 -8.255) (xy -1.905 -8.255) (xy -2.54 -9.525)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -18.415) (xy -2.54 -20.32) (xy -5.08 -20.32)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -18.415) (xy -3.175 -17.145) (xy -1.905 -17.145) (xy -2.54 -18.415)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -27.305) (xy -2.54 -29.21) (xy -5.08 -29.21)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -27.305) (xy -3.175 -26.035) (xy -1.905 -26.035) (xy -2.54 -27.305)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -0.508 0.508) (xy 0.762 0.508) (xy 0.381 0.381) (xy 0.381 0.635) (xy 0.762 0.508)
 					)
 					(stroke
@@ -559,78 +392,6 @@
 				(polyline
 					(pts
 						(xy -0.508 -0.508) (xy 0.762 -0.508) (xy 0.381 -0.635) (xy 0.381 -0.381) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -8.382) (xy 0.762 -8.382) (xy 0.381 -8.509) (xy 0.381 -8.255) (xy 0.762 -8.382)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -9.398) (xy 0.762 -9.398) (xy 0.381 -9.525) (xy 0.381 -9.271) (xy 0.762 -9.398)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -17.272) (xy 0.762 -17.272) (xy 0.381 -17.399) (xy 0.381 -17.145) (xy 0.762 -17.272)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -18.288) (xy 0.762 -18.288) (xy 0.381 -18.415) (xy 0.381 -18.161) (xy 0.762 -18.288)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -26.162) (xy 0.762 -26.162) (xy 0.381 -26.289) (xy 0.381 -26.035) (xy 0.762 -26.162)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -27.178) (xy 0.762 -27.178) (xy 0.381 -27.305) (xy 0.381 -27.051) (xy 0.762 -27.178)
 					)
 					(stroke
 						(width 0)
@@ -666,115 +427,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -6.985) (xy 2.54 -10.795)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -8.255) (xy 4.445 -6.35)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -15.875) (xy 2.54 -19.685)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -17.145) (xy 4.445 -15.24)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -24.765) (xy 2.54 -28.575)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -26.035) (xy 4.445 -24.13)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 3.048 -1.651) (xy 3.556 -1.143) (xy 4.064 -2.159) (xy 3.048 -1.651)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 -10.541) (xy 3.556 -10.033) (xy 4.064 -11.049) (xy 3.048 -10.541)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 -19.431) (xy 3.556 -18.923) (xy 4.064 -19.939) (xy 3.048 -19.431)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 -28.321) (xy 3.556 -27.813) (xy 4.064 -28.829) (xy 3.048 -28.321)
 					)
 					(stroke
 						(width 0)
@@ -811,114 +464,6 @@
 				(polyline
 					(pts
 						(xy 4.445 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 -6.35) (xy 5.08 -6.35)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 -11.43) (xy 2.54 -9.525)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 -11.43) (xy 5.08 -11.43)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 -15.24) (xy 5.08 -15.24)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 -20.32) (xy 2.54 -18.415)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 -20.32) (xy 5.08 -20.32)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 -24.13) (xy 5.08 -24.13)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 -29.21) (xy 2.54 -27.305)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 -29.21) (xy 5.08 -29.21)
 					)
 					(stroke
 						(width 0)
@@ -967,222 +512,6 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 -6.35 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -11.43 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -15.24 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -20.32 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -24.13 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -29.21 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -29.21 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -24.13 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -20.32 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -15.24 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -11.43 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -6.35 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 7.62 -2.54 180)
 					(length 2.54)
 					(name ""
@@ -1211,6 +540,228 @@
 						)
 					)
 					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Optocoupler_4chan_2_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Optocoupler_4chan_3_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Optocoupler_4chan_4_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1788,8 +1339,8 @@
 	)
 	(symbol
 		(lib_id "Tamara:Optocoupler_4chan")
-		(at 43.18 81.28 0)
-		(unit 1)
+		(at 38.1 102.87 0)
+		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1797,9 +1348,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1851a973-3874-4e84-ad23-57dd9d5840f1")
+		(uuid "1350b30b-09a9-4553-959c-03b0b4f0ff30")
 		(property "Reference" "U5"
-			(at 43.18 72.39 0)
+			(at 38.1 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1809,7 +1360,7 @@
 			)
 		)
 		(property "Value" "Optocoupler_4chan"
-			(at 43.18 74.93 0)
+			(at 38.1 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1819,7 +1370,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
-			(at 38.1 86.36 0)
+			(at 33.02 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1832,7 +1383,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 81.28 0)
+			(at 38.1 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1844,7 +1395,7 @@
 			)
 		)
 		(property "Description" "Generic DC optocoupler with NPN phototransistor output, pins order: anode/cathode/emitter/collector"
-			(at 43.18 81.28 0)
+			(at 38.1 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1854,59 +1405,327 @@
 				)
 			)
 		)
-		(pin "11"
-			(uuid "825aac16-d064-4fc9-9f48-0fef0cb5318d")
-		)
-		(pin "6"
-			(uuid "9638a275-d43c-4117-ba2d-93fe757cf5bf")
-		)
-		(pin "5"
-			(uuid "68ab7dd6-2894-4c6f-b6b2-42916784f707")
-		)
-		(pin "4"
-			(uuid "af318e8f-17c5-4573-bda0-2bf626cc06a9")
-		)
-		(pin "3"
-			(uuid "764eeb35-c90a-4e2f-b047-437265c736f4")
-		)
-		(pin "2"
-			(uuid "79744546-2974-480b-ac62-8aae8f86c95c")
-		)
-		(pin "1"
-			(uuid "a3a3ca1e-925c-48b7-9190-bc71f8926cf0")
-		)
 		(pin "7"
-			(uuid "fbf01197-b016-4cbf-a701-e83fce1b8924")
-		)
-		(pin "15"
-			(uuid "5a50ad01-3573-443b-bc53-bba6d0904a63")
-		)
-		(pin "16"
-			(uuid "471598b3-342e-455f-84f3-561f66584bba")
-		)
-		(pin "13"
-			(uuid "7d234c3a-dc45-4794-a9b5-e0a36aa5e0a5")
-		)
-		(pin "12"
-			(uuid "0a0c43ac-c458-4ebf-bafc-3a651ff98b29")
-		)
-		(pin "8"
-			(uuid "57b0eeda-f695-4d5f-8513-4ef3f8d645a7")
+			(uuid "9cd059f8-13e8-4a15-9a98-46731e6c8456")
 		)
 		(pin "14"
-			(uuid "ed6bdb63-d3a5-42e2-afb4-b51d1d7e060e")
+			(uuid "9ea55710-79a8-438f-b108-4f254a374e93")
 		)
-		(pin "10"
-			(uuid "9265ccdc-a36e-4a87-b930-ff5642379145")
+		(pin "1"
+			(uuid "4d7f636a-a8d8-4ee7-85d3-a8804971d7bd")
+		)
+		(pin "4"
+			(uuid "f26101b0-5827-4fb3-8109-90615db634bf")
+		)
+		(pin "2"
+			(uuid "285eaae5-01d2-4d1c-8944-63d724389151")
 		)
 		(pin "9"
-			(uuid "4c8347fa-f12c-49ae-8a54-9ca466a28e5c")
+			(uuid "7113cd3c-a04a-43a6-bc47-2d44b9839284")
+		)
+		(pin "3"
+			(uuid "a46eaec3-0f5e-4ddb-b711-e1eb43149f38")
+		)
+		(pin "13"
+			(uuid "557189c1-6f1c-4f86-b81b-9133a7a7d1c5")
+		)
+		(pin "16"
+			(uuid "b0c5fc7d-f293-45fd-bc5a-77bb07d390a1")
+		)
+		(pin "15"
+			(uuid "4e588418-19d7-4263-bc03-e0e318e1a4d5")
+		)
+		(pin "10"
+			(uuid "1ad2bbe3-4fce-4637-b798-fbc987cbf4c6")
+		)
+		(pin "5"
+			(uuid "b29c4e76-520c-4e61-bf2e-646e3b8cb933")
+		)
+		(pin "6"
+			(uuid "5fd6aba7-d973-4ec6-b624-842319246824")
+		)
+		(pin "8"
+			(uuid "56b30caa-8602-4165-ad2d-f4a6ca158a9e")
+		)
+		(pin "11"
+			(uuid "b36bbea7-2c66-4b4f-ac6b-12623ab6db46")
+		)
+		(pin "12"
+			(uuid "1ce282a4-9c4f-44a7-b7ce-89f4c484558a")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/08e291a1-59e7-456b-83cd-460afac67c80"
 					(reference "U5")
-					(unit 1)
+					(unit 3)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/08e291a1-59e7-456b-83cd-460afac67c80"
+					(reference "U5")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Tamara:Optocoupler_4chan")
+		(at 38.1 88.9 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f378049-1e05-4cb7-b44e-edab4fbfab82")
+		(property "Reference" "U5"
+			(at 38.1 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Optocoupler_4chan"
+			(at 38.1 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
+			(at 33.02 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Generic DC optocoupler with NPN phototransistor output, pins order: anode/cathode/emitter/collector"
+			(at 38.1 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "9cd059f8-13e8-4a15-9a98-46731e6c8457")
+		)
+		(pin "14"
+			(uuid "9ea55710-79a8-438f-b108-4f254a374e94")
+		)
+		(pin "1"
+			(uuid "4d7f636a-a8d8-4ee7-85d3-a8804971d7be")
+		)
+		(pin "4"
+			(uuid "f26101b0-5827-4fb3-8109-90615db634c0")
+		)
+		(pin "2"
+			(uuid "285eaae5-01d2-4d1c-8944-63d724389152")
+		)
+		(pin "9"
+			(uuid "7113cd3c-a04a-43a6-bc47-2d44b9839285")
+		)
+		(pin "3"
+			(uuid "a46eaec3-0f5e-4ddb-b711-e1eb43149f39")
+		)
+		(pin "13"
+			(uuid "557189c1-6f1c-4f86-b81b-9133a7a7d1c6")
+		)
+		(pin "16"
+			(uuid "b0c5fc7d-f293-45fd-bc5a-77bb07d390a2")
+		)
+		(pin "15"
+			(uuid "4e588418-19d7-4263-bc03-e0e318e1a4d6")
+		)
+		(pin "10"
+			(uuid "1ad2bbe3-4fce-4637-b798-fbc987cbf4c7")
+		)
+		(pin "5"
+			(uuid "b29c4e76-520c-4e61-bf2e-646e3b8cb934")
+		)
+		(pin "6"
+			(uuid "5fd6aba7-d973-4ec6-b624-842319246825")
+		)
+		(pin "8"
+			(uuid "56b30caa-8602-4165-ad2d-f4a6ca158a9f")
+		)
+		(pin "11"
+			(uuid "b36bbea7-2c66-4b4f-ac6b-12623ab6db47")
+		)
+		(pin "12"
+			(uuid "1ce282a4-9c4f-44a7-b7ce-89f4c484558b")
+		)
+		(instances
+			(project "hbridge"
+				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/08e291a1-59e7-456b-83cd-460afac67c80"
+					(reference "U5")
+					(unit 2)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/08e291a1-59e7-456b-83cd-460afac67c80"
+					(reference "U5")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Tamara:Optocoupler_4chan")
+		(at 38.1 115.57 0)
+		(unit 4)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4afda257-0dfd-4339-8bd8-f6738d9e3041")
+		(property "Reference" "U5"
+			(at 38.1 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Optocoupler_4chan"
+			(at 38.1 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
+			(at 33.02 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Generic DC optocoupler with NPN phototransistor output, pins order: anode/cathode/emitter/collector"
+			(at 38.1 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "9cd059f8-13e8-4a15-9a98-46731e6c8458")
+		)
+		(pin "14"
+			(uuid "9ea55710-79a8-438f-b108-4f254a374e95")
+		)
+		(pin "1"
+			(uuid "4d7f636a-a8d8-4ee7-85d3-a8804971d7bf")
+		)
+		(pin "4"
+			(uuid "f26101b0-5827-4fb3-8109-90615db634c1")
+		)
+		(pin "2"
+			(uuid "285eaae5-01d2-4d1c-8944-63d724389153")
+		)
+		(pin "9"
+			(uuid "7113cd3c-a04a-43a6-bc47-2d44b9839286")
+		)
+		(pin "3"
+			(uuid "a46eaec3-0f5e-4ddb-b711-e1eb43149f3a")
+		)
+		(pin "13"
+			(uuid "557189c1-6f1c-4f86-b81b-9133a7a7d1c7")
+		)
+		(pin "16"
+			(uuid "b0c5fc7d-f293-45fd-bc5a-77bb07d390a3")
+		)
+		(pin "15"
+			(uuid "4e588418-19d7-4263-bc03-e0e318e1a4d7")
+		)
+		(pin "10"
+			(uuid "1ad2bbe3-4fce-4637-b798-fbc987cbf4c8")
+		)
+		(pin "5"
+			(uuid "b29c4e76-520c-4e61-bf2e-646e3b8cb935")
+		)
+		(pin "6"
+			(uuid "5fd6aba7-d973-4ec6-b624-842319246826")
+		)
+		(pin "8"
+			(uuid "56b30caa-8602-4165-ad2d-f4a6ca158aa0")
+		)
+		(pin "11"
+			(uuid "b36bbea7-2c66-4b4f-ac6b-12623ab6db48")
+		)
+		(pin "12"
+			(uuid "1ce282a4-9c4f-44a7-b7ce-89f4c484558c")
+		)
+		(instances
+			(project "hbridge"
+				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/08e291a1-59e7-456b-83cd-460afac67c80"
+					(reference "U5")
+					(unit 4)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/08e291a1-59e7-456b-83cd-460afac67c80"
+					(reference "U5")
+					(unit 4)
 				)
 			)
 		)
@@ -1997,6 +1816,143 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/08e291a1-59e7-456b-83cd-460afac67c80"
+					(reference "J22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Tamara:Optocoupler_4chan")
+		(at 38.1 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7481d8a-d6ab-403d-b064-41192898b68e")
+		(property "Reference" "U5"
+			(at 38.1 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Optocoupler_4chan"
+			(at 38.1 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
+			(at 33.02 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Generic DC optocoupler with NPN phototransistor output, pins order: anode/cathode/emitter/collector"
+			(at 38.1 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "9cd059f8-13e8-4a15-9a98-46731e6c8459")
+		)
+		(pin "14"
+			(uuid "9ea55710-79a8-438f-b108-4f254a374e96")
+		)
+		(pin "1"
+			(uuid "4d7f636a-a8d8-4ee7-85d3-a8804971d7c0")
+		)
+		(pin "4"
+			(uuid "f26101b0-5827-4fb3-8109-90615db634c2")
+		)
+		(pin "2"
+			(uuid "285eaae5-01d2-4d1c-8944-63d724389154")
+		)
+		(pin "9"
+			(uuid "7113cd3c-a04a-43a6-bc47-2d44b9839287")
+		)
+		(pin "3"
+			(uuid "a46eaec3-0f5e-4ddb-b711-e1eb43149f3b")
+		)
+		(pin "13"
+			(uuid "557189c1-6f1c-4f86-b81b-9133a7a7d1c8")
+		)
+		(pin "16"
+			(uuid "b0c5fc7d-f293-45fd-bc5a-77bb07d390a4")
+		)
+		(pin "15"
+			(uuid "4e588418-19d7-4263-bc03-e0e318e1a4d8")
+		)
+		(pin "10"
+			(uuid "1ad2bbe3-4fce-4637-b798-fbc987cbf4c9")
+		)
+		(pin "5"
+			(uuid "b29c4e76-520c-4e61-bf2e-646e3b8cb936")
+		)
+		(pin "6"
+			(uuid "5fd6aba7-d973-4ec6-b624-842319246827")
+		)
+		(pin "8"
+			(uuid "56b30caa-8602-4165-ad2d-f4a6ca158aa1")
+		)
+		(pin "11"
+			(uuid "b36bbea7-2c66-4b4f-ac6b-12623ab6db49")
+		)
+		(pin "12"
+			(uuid "1ce282a4-9c4f-44a7-b7ce-89f4c484558d")
+		)
+		(instances
+			(project "hbridge"
+				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/08e291a1-59e7-456b-83cd-460afac67c80"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/08e291a1-59e7-456b-83cd-460afac67c80"
+					(reference "U5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2081,6 +2037,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/08e291a1-59e7-456b-83cd-460afac67c80"
+					(reference "J20")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/08e291a1-59e7-456b-83cd-460afac67c80"
 					(reference "J20")
 					(unit 1)
 				)
@@ -2173,6 +2135,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/08e291a1-59e7-456b-83cd-460afac67c80"
+					(reference "J23")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2257,6 +2225,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/08e291a1-59e7-456b-83cd-460afac67c80"
+					(reference "J24")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/08e291a1-59e7-456b-83cd-460afac67c80"
 					(reference "J24")
 					(unit 1)
 				)

@@ -9035,6 +9035,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "J6")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9107,6 +9113,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "TP17")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "TP17")
 					(unit 1)
 				)
@@ -9193,6 +9205,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "R8")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9270,6 +9288,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "TP22")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9343,6 +9367,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR0107")
 					(unit 1)
 				)
@@ -9449,6 +9479,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "D20")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9543,6 +9579,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9616,6 +9658,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR0110")
 					(unit 1)
 				)
@@ -9702,6 +9750,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "C3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9784,6 +9838,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "C1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9862,6 +9922,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "C7")
 					(unit 1)
 				)
@@ -9988,6 +10054,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "U2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10063,6 +10135,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR068")
 					(unit 1)
 				)
@@ -10146,6 +10224,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "R42")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10222,6 +10306,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "R1")
 					(unit 1)
 				)
@@ -10309,6 +10399,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "J15")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10382,6 +10478,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR0101")
 					(unit 1)
 				)
@@ -10461,6 +10563,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR067")
 					(unit 1)
 				)
@@ -10547,6 +10655,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "R47")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10622,6 +10736,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR065")
 					(unit 1)
 				)
@@ -10709,6 +10829,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "J9")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10786,6 +10912,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10859,6 +10991,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR089")
 					(unit 1)
 				)
@@ -10941,6 +11079,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11015,6 +11159,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "TP15")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "TP15")
 					(unit 1)
 				)
@@ -11113,6 +11263,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "Q7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11186,6 +11342,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR0113")
 					(unit 1)
 				)
@@ -11267,6 +11429,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "#PWR096")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11344,6 +11512,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11417,6 +11591,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR0105")
 					(unit 1)
 				)
@@ -11504,6 +11684,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "J17")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11578,6 +11764,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR030")
 					(unit 1)
 				)
@@ -11657,6 +11849,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "R2")
 					(unit 1)
 				)
@@ -11755,6 +11953,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11829,6 +12033,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "TP24")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "TP24")
 					(unit 1)
 				)
@@ -11912,6 +12122,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "R6")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11986,6 +12202,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "TP21")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "TP21")
 					(unit 1)
 				)
@@ -12072,6 +12294,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "C13")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12145,6 +12373,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR088")
 					(unit 1)
 				)
@@ -12227,6 +12461,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12300,6 +12540,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "TP13")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "TP13")
 					(unit 1)
 				)
@@ -12383,6 +12629,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12457,6 +12709,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR03")
 					(unit 1)
 				)
@@ -12540,6 +12798,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12613,6 +12877,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR097")
 					(unit 1)
 				)
@@ -12699,6 +12969,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "R48")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12777,6 +13053,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "R46")
 					(unit 1)
 				)
@@ -12861,6 +13143,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "J14")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12938,6 +13226,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13010,6 +13304,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "TP14")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "TP14")
 					(unit 1)
 				)
@@ -13105,6 +13405,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "D23")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13188,6 +13494,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "J18")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13266,6 +13578,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13339,6 +13657,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "#PWR099")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR099")
 					(unit 1)
 				)
@@ -13430,6 +13754,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "D3")
 					(unit 1)
 				)
@@ -13536,6 +13866,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "D19")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13618,6 +13954,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "R44")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13691,6 +14033,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR0104")
 					(unit 1)
 				)
@@ -13777,6 +14125,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "R9")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13855,6 +14209,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "R43")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "R43")
 					(unit 1)
 				)
@@ -13942,6 +14302,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -14024,6 +14390,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "R7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -14097,6 +14469,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "#PWR095")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR095")
 					(unit 1)
 				)
@@ -14181,6 +14559,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "R37")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -14257,6 +14641,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "R4")
 					(unit 1)
 				)
@@ -14352,6 +14742,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "D22")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -14425,6 +14821,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR094")
 					(unit 1)
 				)
@@ -14505,6 +14907,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "TP20")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -14578,6 +14986,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR0116")
 					(unit 1)
 				)
@@ -14660,6 +15074,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "J5")
 					(unit 1)
 				)
@@ -14755,6 +15175,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "D4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -14846,6 +15272,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "D6")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -14919,6 +15351,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR098")
 					(unit 1)
 				)
@@ -15003,6 +15441,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "J13")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -15076,6 +15520,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR0109")
 					(unit 1)
 				)
@@ -15158,6 +15608,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "R10")
 					(unit 1)
 				)
@@ -15284,6 +15740,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "U3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -15375,6 +15837,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "D21")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -15457,6 +15925,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "J2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -15530,6 +16004,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR0112")
 					(unit 1)
 				)
@@ -15613,6 +16093,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -15689,6 +16175,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "R40")
 					(unit 1)
 				)
@@ -15787,6 +16279,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "J7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -15860,6 +16358,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "TP16")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "TP16")
 					(unit 1)
 				)
@@ -15958,6 +16462,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "J10")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -16040,6 +16550,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "C12")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -16113,6 +16629,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR0115")
 					(unit 1)
 				)
@@ -16195,6 +16717,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "R11")
 					(unit 1)
 				)
@@ -16293,6 +16821,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "J1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -16366,6 +16900,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR0103")
 					(unit 1)
 				)
@@ -16448,6 +16988,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "C8")
 					(unit 1)
 				)
@@ -16574,6 +17120,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "U11")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -16653,6 +17205,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "R39")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -16727,6 +17285,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "TP18")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "TP18")
 					(unit 1)
 				)
@@ -16813,6 +17377,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "J8")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -16886,6 +17456,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR092")
 					(unit 1)
 				)
@@ -17012,6 +17588,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "U12")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -17114,6 +17696,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "D1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -17187,6 +17775,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR090")
 					(unit 1)
 				)
@@ -17285,6 +17879,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "J4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -17357,6 +17957,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "TP23")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "TP23")
 					(unit 1)
 				)
@@ -17440,6 +18046,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "J21")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -17515,6 +18127,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "R5")
 					(unit 1)
 				)
@@ -17596,6 +18214,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "#PWR091")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -17673,6 +18297,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -17746,6 +18376,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR093")
 					(unit 1)
 				)
@@ -17841,6 +18477,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "D24")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -17916,6 +18558,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR078")
 					(unit 1)
 				)
@@ -17999,6 +18647,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "J3")
 					(unit 1)
 				)
@@ -18097,6 +18751,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -18170,6 +18830,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "#PWR0100")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR0100")
 					(unit 1)
 				)
@@ -18249,6 +18915,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "R41")
 					(unit 1)
 				)
@@ -18336,6 +19008,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "J16")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -18414,6 +19092,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "J11")
 					(unit 1)
 				)
@@ -18500,6 +19184,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "R12")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -18575,6 +19265,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "R3")
 					(unit 1)
 				)
@@ -18661,6 +19357,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "R45")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -18734,6 +19436,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "TP19")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "TP19")
 					(unit 1)
 				)
@@ -18840,6 +19548,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "D2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -18915,6 +19629,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR066")
 					(unit 1)
 				)
@@ -18998,6 +19718,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "R38")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -19071,6 +19797,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR0114")
 					(unit 1)
 				)
@@ -19166,6 +19898,12 @@
 					(unit 1)
 				)
 			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "D5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -19245,6 +19983,12 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+			(project "плата_полумоста"
+				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "J12")
 					(unit 1)
 				)
