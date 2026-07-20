@@ -404,7 +404,7 @@
     "meta": {
       "version": 1
     },
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "driver1.kicad_sch",
     "plot_directory": "",
     "reuse_designators": true,
     "subpart_first_id": 65,
@@ -416,7 +416,7 @@
         "uuid": "57862e5f-a40a-465c-a270-ac771e1bd2a5"
       }
     ],
-    "used_designators": "",
+    "used_designators": "TP1-15,R1-10,R13-42,U5-9,Q4-8,J2-16,D7-20,C2-6,#PWR27-31,#PWR65-69,#PWR78-82,#PWR88-116",
     "variants": []
   },
   "sheets": [
@@ -425,8 +425,20 @@
       "Корневой лист"
     ],
     [
-      "c5c04e8b-6588-4eb3-be58-ea19d7090166",
-      "Driver"
+      "4bcdd8c0-40c2-41f1-8082-c6e1fa597070",
+      "Driver1"
+    ],
+    [
+      "d7ca5897-17e1-4060-864d-af494dfdb8a4",
+      "Driver2"
+    ],
+    [
+      "69accb08-b022-4a91-9be3-522d873d8d18",
+      "Driver3"
+    ],
+    [
+      "2c8c1134-47ca-4fcd-8b58-abeeb11cd299",
+      "Driver4"
     ]
   ],
   "text_variables": {},

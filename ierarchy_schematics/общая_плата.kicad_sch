@@ -1,0 +1,80 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "38b0823b-7f4f-42f0-94f6-b77a6bed2917")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 58.42 67.31)
+		(size 40.64 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2b182cfb-842b-4228-9979-ad275531766b")
+		(property "Sheetname" "Полумост"
+			(at 58.42 66.5984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "half_bridge.kicad_sch"
+			(at 58.42 89.4846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "24_DC" input
+			(at 58.42 73.66 180)
+			(uuid "1be59a17-ee86-450b-a7d7-6cda3f440870")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND_DC" input
+			(at 58.42 80.01 180)
+			(uuid "5013ba18-f19f-4499-8bc2-0a8679f9c426")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ierarchy_schematics"
+				(path "/c819dc93-27d2-47b6-913a-cb551da1681a"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "6")
+		)
+	)
+	(embedded_fonts no)
+)
