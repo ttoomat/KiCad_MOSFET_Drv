@@ -5,231 +5,6 @@
 	(uuid "49527538-7089-4aab-bbb2-ab31a07bb2c3")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x03_Socket"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x03_Socket"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x03, script generated"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x03_Socket_1_1"
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy -0.508 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 2.032)
-					(mid -0.5058 2.54)
-					(end 0 3.048)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -0.508)
-					(mid -0.5058 0)
-					(end 0 0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -3.048)
-					(mid -0.5058 -2.54)
-					(end 0 -2.032)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -2648,7 +2423,7 @@
 	)
 	(text "транзистор и драйвер впаиваем\n\nтакже клеммники добавить и продумать соединение к главной плате\n\nдрайвер ставить в непосредственой близости к транзистору\n\nсделать качественную развязку под 1 ключ и можно сделать одноключевые платы\nа потом впаивать их в плату полумоста"
 		(exclude_from_sim no)
-		(at 144.526 122.174 0)
+		(at 140.97 140.208 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2658,7 +2433,7 @@
 	)
 	(text "!! забыла ножки, чтоб плату на другую напаять\nLDO выбрать, обвязку сделать\n"
 		(exclude_from_sim no)
-		(at 244.856 56.134 0)
+		(at 243.586 133.858 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2668,7 +2443,7 @@
 	)
 	(text "1-1.5А ЛДО на плате драйвера на 36-40В на вход\n\nнужна разрезанная плата под драйвером"
 		(exclude_from_sim no)
-		(at 139.446 145.034 0)
+		(at 135.89 163.068 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2678,7 +2453,7 @@
 	)
 	(text "LDO добавить (с возможностью сделать перемычку вместо него)\n+ как подсоединять эту маленькую плату к плате полумоста добавить\n+ разъемы питания\n\n? может плату попросить у Иващенко напечатать?"
 		(exclude_from_sim no)
-		(at 224.536 105.918 0)
+		(at 227.076 159.258 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2739,6 +2514,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "47742266-eb6e-47bb-8202-d0f75d69e16c")
+	)
+	(junction
+		(at 102.87 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "688331c4-325d-482b-8b5b-00693b9cc452")
 	)
 	(junction
 		(at 67.31 72.39)
@@ -2910,6 +2691,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 109.22) (xy 110.49 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1948c8cc-95f4-48ef-ad1c-8e915032632f")
+	)
+	(wire
+		(pts
 			(xy 204.47 66.04) (xy 162.56 66.04)
 		)
 		(stroke
@@ -2947,6 +2738,16 @@
 			(type default)
 		)
 		(uuid "1d832ad3-2d6f-470e-9478-09c727d340a7")
+	)
+	(wire
+		(pts
+			(xy 101.6 107.95) (xy 95.25 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dc926c0-4ff9-4000-96ef-1e3f14ee9678")
 	)
 	(wire
 		(pts
@@ -2997,6 +2798,16 @@
 			(type default)
 		)
 		(uuid "26e10251-13c6-4a6a-aa04-f37cf5abc95e")
+	)
+	(wire
+		(pts
+			(xy 104.14 92.71) (xy 104.14 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2793229b-6ffa-4242-a8ee-80c725685b80")
 	)
 	(wire
 		(pts
@@ -3060,6 +2871,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 107.95) (xy 95.25 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36d32621-71ca-4e8e-85cf-0012e8375b43")
+	)
+	(wire
+		(pts
 			(xy 185.42 67.31) (xy 185.42 71.12)
 		)
 		(stroke
@@ -3090,6 +2911,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 96.52) (xy 106.68 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b5f8bfb-5cdc-499f-ace8-3bd0f80911b2")
+	)
+	(wire
+		(pts
 			(xy 102.87 60.96) (xy 102.87 62.23)
 		)
 		(stroke
@@ -3097,6 +2928,16 @@
 			(type default)
 		)
 		(uuid "4b73f707-3e35-443a-ae9e-92baa142482a")
+	)
+	(wire
+		(pts
+			(xy 102.87 110.49) (xy 102.87 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5500ce7e-668d-4db1-86f0-cab809c257a4")
 	)
 	(wire
 		(pts
@@ -3157,16 +2998,6 @@
 			(type default)
 		)
 		(uuid "68e6cef8-2c7e-4b63-9c91-b7b079f5d9c3")
-	)
-	(wire
-		(pts
-			(xy 104.14 92.71) (xy 104.14 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69d8674a-5001-4516-a09c-6f2e8014f24b")
 	)
 	(wire
 		(pts
@@ -3277,6 +3108,16 @@
 			(type default)
 		)
 		(uuid "84dce0fc-b32b-40bc-95ac-a9903f6e1deb")
+	)
+	(wire
+		(pts
+			(xy 101.6 96.52) (xy 101.6 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89b19c7e-f57a-408b-9c54-ea8fd37bb4a9")
 	)
 	(wire
 		(pts
@@ -3530,6 +3371,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 109.22) (xy 110.49 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da325e22-20ad-4ab5-b98d-96e94e1774ec")
+	)
+	(wire
+		(pts
 			(xy 109.22 96.52) (xy 109.22 99.06)
 		)
 		(stroke
@@ -3537,6 +3388,16 @@
 			(type default)
 		)
 		(uuid "db6f0154-dc87-4358-b025-aa6e84a7889e")
+	)
+	(wire
+		(pts
+			(xy 104.14 110.49) (xy 102.87 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbb9faa0-c436-4de3-9554-ca40b8b1f5d1")
 	)
 	(wire
 		(pts
@@ -3785,6 +3646,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 106.68 113.03 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "13b90937-dd43-4849-8c75-91690b21fb9a")
+		(property "Reference" "R2"
+			(at 106.68 106.68 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 106.68 109.22 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 106.68 114.808 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 106.68 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b2334fde-6165-4b46-96c0-7f4d61c864aa")
+		)
+		(pin "1"
+			(uuid "1e5d0a6a-09c9-469a-85f4-5c7597fd0b71")
+		)
+		(instances
+			(project "practice_pcb"
+				(path "/49527538-7089-4aab-bbb2-ab31a07bb2c3"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 156.21 63.5 90)
 		(mirror x)
@@ -3985,7 +3926,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-6P_1x06_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 209.55 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -4200,89 +4141,6 @@
 			(project "practice_pcb"
 				(path "/49527538-7089-4aab-bbb2-ab31a07bb2c3"
 					(reference "#PWR090")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Socket")
-		(at 104.14 101.6 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5a931fc8-4b3a-49d8-a567-1e7f0880a174")
-		(property "Reference" "J1"
-			(at 104.14 104.14 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VEE connector"
-			(at 104.14 106.68 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 104.14 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 104.14 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bea0eb3a-8e3e-4ff8-ae2b-4701815f7171")
-		)
-		(pin "2"
-			(uuid "206675f9-aa4f-4373-b9d2-c8e71d80a295")
-		)
-		(pin "3"
-			(uuid "65f742a3-ccd0-4a2c-8017-fdd6ccdfdfc7")
-		)
-		(instances
-			(project "practice_pcb"
-				(path "/49527538-7089-4aab-bbb2-ab31a07bb2c3"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -4759,7 +4617,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-3P_1x03_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 72.39 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4990,7 +4848,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4006"
+		(property "Value" "S1K-13-F"
 			(at 95.25 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5000,7 +4858,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 95.25 59.055 0)
 			(hide yes)
 			(show_name no)
@@ -5011,7 +4869,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+		(property "Datasheet" ""
 			(at 95.25 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -5261,7 +5119,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-3P_1x03_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 33.02 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -5807,6 +5665,86 @@
 			(project "practice_pcb"
 				(path "/49527538-7089-4aab-bbb2-ab31a07bb2c3"
 					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 99.06 113.03 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6443ae9-759b-4fca-9077-e5dc3c0c01ff")
+		(property "Reference" "R1"
+			(at 99.06 106.68 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 99.06 109.22 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 99.06 114.808 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 99.06 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b400f00c-23a5-47f9-967f-8f885adb4837")
+		)
+		(pin "1"
+			(uuid "d5c8e722-135b-4806-a826-3c338bf5e591")
+		)
+		(instances
+			(project "practice_pcb"
+				(path "/49527538-7089-4aab-bbb2-ab31a07bb2c3"
+					(reference "R1")
 					(unit 1)
 				)
 			)
