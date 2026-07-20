@@ -6447,6 +6447,24 @@
 			(uuid "097cc50e-08fe-42ab-a8c4-431c0c93c81b")
 		)
 		(instances
+			(project "общая_плата"
+				(path "/38b0823b-7f4f-42f0-94f6-b77a6bed2917/2b182cfb-842b-4228-9979-ad275531766b/2d9668f3-7b76-439d-a3c5-0a7e1f1fe966"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+				(path "/38b0823b-7f4f-42f0-94f6-b77a6bed2917/2b182cfb-842b-4228-9979-ad275531766b/7d020791-57b3-4a92-94b1-c61f36dbfc22"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+				(path "/38b0823b-7f4f-42f0-94f6-b77a6bed2917/2b182cfb-842b-4228-9979-ad275531766b/f27a5cea-9f7c-4f3e-9fe8-4f469d6c4475"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+				(path "/38b0823b-7f4f-42f0-94f6-b77a6bed2917/2b182cfb-842b-4228-9979-ad275531766b/f594c3e9-de62-4a10-bf50-983a248feca7"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
 			(project "driver"
 				(path "/5490ef42-662b-4b9f-8690-bf83edd922c0"
 					(reference "#PWR0117")
@@ -7527,5 +7545,4 @@
 			(page "1")
 		)
 	)
-	(embedded_fonts no)
 )
