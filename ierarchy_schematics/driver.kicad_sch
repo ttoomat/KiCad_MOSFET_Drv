@@ -2446,6 +2446,12 @@
 		(uuid "29d25c81-9aeb-421a-b779-88128a11d35d")
 	)
 	(junction
+		(at 186.69 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d7a18b7-dd05-48f0-8b5a-670c54f98c07")
+	)
+	(junction
 		(at 88.9 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2462,6 +2468,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "39eec461-37cf-4fca-bcfb-053b0a64ac5b")
+	)
+	(junction
+		(at 186.69 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41f78bef-86cb-4b70-b058-1c7d42ae145c")
 	)
 	(junction
 		(at 86.36 104.14)
@@ -2482,6 +2494,12 @@
 		(uuid "59d1c1f0-bc05-4d60-9c16-3f7f74ca9aec")
 	)
 	(junction
+		(at 182.88 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d626bdc-27d6-4296-8107-010b8d19edba")
+	)
+	(junction
 		(at 130.81 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2494,16 +2512,22 @@
 		(uuid "65a770dc-6013-489c-9b72-161068aef733")
 	)
 	(junction
+		(at 168.91 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6da70ef2-f5c1-420b-86b7-c8340e918c30")
+	)
+	(junction
 		(at 226.06 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c338d54-4820-4ec3-b3a0-98982c7a3a90")
 	)
 	(junction
-		(at 168.91 88.9)
+		(at 226.06 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7da2fa08-c29a-4058-983a-8f6481116a66")
+		(uuid "80a181a6-edd8-439c-9b3c-8404f8645e2a")
 	)
 	(junction
 		(at 168.91 74.93)
@@ -2530,12 +2554,6 @@
 		(uuid "9ccf918e-de3a-4d01-8ce1-d7df607e2209")
 	)
 	(junction
-		(at 177.8 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9db9c264-dc23-4f88-af1a-d184cb24d478")
-	)
-	(junction
 		(at 99.06 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2560,10 +2578,10 @@
 		(uuid "bdad70d9-147a-48ac-9c9a-1317e90c16b6")
 	)
 	(junction
-		(at 186.69 102.87)
+		(at 177.8 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c71e7841-494b-4496-994c-ae245f7107e3")
+		(uuid "c240775a-28b8-4592-bb3b-85c5924c61b7")
 	)
 	(junction
 		(at 59.69 106.68)
@@ -2600,12 +2618,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb7170d0-df18-40a6-a6d0-93c47ce9c0f0")
-	)
-	(junction
-		(at 226.06 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ebdbf8b6-db87-42e3-bec8-3e09f59dedf8")
 	)
 	(junction
 		(at 186.69 74.93)
@@ -2733,7 +2745,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 87.63) (xy 168.91 88.9)
+			(xy 168.91 87.63) (xy 168.91 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2750,6 +2762,16 @@
 			(type default)
 		)
 		(uuid "18c3a6a6-62f4-409a-b28a-df27b3b1a2b0")
+	)
+	(wire
+		(pts
+			(xy 161.29 104.14) (xy 161.29 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1be92cc9-61d3-4781-91ac-f27976e2088b")
 	)
 	(wire
 		(pts
@@ -2773,7 +2795,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 99.06) (xy 161.29 99.06)
+			(xy 161.29 99.06) (xy 177.8 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2943,16 +2965,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 99.06) (xy 184.15 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b0e37a4-f40e-4551-b096-5d63d28f5c9a")
-	)
-	(wire
-		(pts
 			(xy 161.29 92.71) (xy 168.91 92.71)
 		)
 		(stroke
@@ -2993,6 +3005,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 113.03) (xy 177.8 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49331008-19b5-4a47-9328-e01613aab4dd")
+	)
+	(wire
+		(pts
 			(xy 78.74 96.52) (xy 78.74 99.06)
 		)
 		(stroke
@@ -3003,7 +3025,17 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 102.87) (xy 186.69 105.41)
+			(xy 177.8 99.06) (xy 177.8 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d071e68-afa9-4502-b673-77503a5d1569")
+	)
+	(wire
+		(pts
+			(xy 186.69 102.87) (xy 186.69 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3093,7 +3125,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 93.98) (xy 194.31 88.9)
+			(xy 194.31 93.98) (xy 194.31 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3143,7 +3175,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 88.9) (xy 194.31 88.9)
+			(xy 168.91 92.71) (xy 194.31 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3170,6 +3202,16 @@
 			(type default)
 		)
 		(uuid "72fa358a-cbd7-4846-92a1-53cd45499fa5")
+	)
+	(wire
+		(pts
+			(xy 177.8 99.06) (xy 184.15 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74a15319-43f5-450f-9194-b1961dfe6540")
 	)
 	(wire
 		(pts
@@ -3263,13 +3305,13 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 87.63) (xy 186.69 91.44)
+			(xy 182.88 113.03) (xy 186.69 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7c678e2f-bff8-4578-be83-486f50aa4dcd")
+		(uuid "7d8ea167-7f55-425b-8769-cc01dfd7d669")
 	)
 	(wire
 		(pts
@@ -3323,6 +3365,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 104.14) (xy 186.69 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81f55771-2e36-418d-ac18-8d7e59cbbe2e")
+	)
+	(wire
+		(pts
 			(xy 124.46 92.71) (xy 109.22 92.71)
 		)
 		(stroke
@@ -3333,7 +3385,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 105.41) (xy 186.69 105.41)
+			(xy 161.29 104.14) (xy 186.69 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3360,16 +3412,6 @@
 			(type default)
 		)
 		(uuid "881a516c-8861-470e-82b0-c33f538cd571")
-	)
-	(wire
-		(pts
-			(xy 177.8 87.63) (xy 177.8 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89610884-6095-4052-b2cc-ba5064bad902")
 	)
 	(wire
 		(pts
@@ -3513,26 +3555,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 97.79) (xy 226.06 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aaae4a10-60d8-497f-a0bf-92123bcf7f01")
-	)
-	(wire
-		(pts
-			(xy 19.1262 0.0762) (xy 108.0262 0.0762)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "addac82a-671b-4ee1-ba39-ecd191d71714")
-	)
-	(wire
-		(pts
 			(xy 238.76 93.98) (xy 226.06 93.98)
 		)
 		(stroke
@@ -3540,6 +3562,16 @@
 			(type default)
 		)
 		(uuid "b3a94ede-ef2d-489d-9085-83d6fd73ca88")
+	)
+	(wire
+		(pts
+			(xy 177.8 113.03) (xy 182.88 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5fab85a-f6cd-4f9d-95ca-d43b331f3e63")
 	)
 	(wire
 		(pts
@@ -3553,23 +3585,13 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 97.79) (xy 184.15 97.79)
+			(xy 226.06 96.52) (xy 184.15 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bb36ab11-90c1-4b97-8073-0f08db9a6706")
-	)
-	(wire
-		(pts
-			(xy 168.91 88.9) (xy 168.91 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bec06a32-ca37-468a-9f70-8077bdfd3be5")
 	)
 	(wire
 		(pts
@@ -3673,16 +3695,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 99.06) (xy 186.69 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d33607cb-8941-4952-a385-41480dbe6a18")
-	)
-	(wire
-		(pts
 			(xy 99.06 130.81) (xy 101.6 130.81)
 		)
 		(stroke
@@ -3730,6 +3742,16 @@
 			(type default)
 		)
 		(uuid "dccb87d7-5dd8-4acd-a4b1-9122e3a161ac")
+	)
+	(wire
+		(pts
+			(xy 177.8 87.63) (xy 177.8 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0187dc9-6230-4bb6-867c-d091148bd848")
 	)
 	(wire
 		(pts
@@ -3793,6 +3815,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 87.63) (xy 186.69 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9ddcec6-9c41-4baa-8cb9-bf7552fecb4a")
+	)
+	(wire
+		(pts
 			(xy 243.84 93.98) (xy 241.3 93.98)
 		)
 		(stroke
@@ -3803,7 +3835,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 97.79) (xy 184.15 99.06)
+			(xy 184.15 96.52) (xy 184.15 99.06)
 		)
 		(stroke
 			(width 0)
@@ -4045,6 +4077,12 @@
 					(unit 1)
 				)
 			)
+			(project "driver"
+				(path "/5490ef42-662b-4b9f-8690-bf83edd922c0"
+					(reference "C6")
+					(unit 1)
+				)
+			)
 			(project "ierarchy_schematics"
 				(path "/c819dc93-27d2-47b6-913a-cb551da1681a/2b182cfb-842b-4228-9979-ad275531766b/2d9668f3-7b76-439d-a3c5-0a7e1f1fe966"
 					(reference "C6")
@@ -4151,6 +4189,12 @@
 					(unit 1)
 				)
 				(path "/38b0823b-7f4f-42f0-94f6-b77a6bed2917/2b182cfb-842b-4228-9979-ad275531766b/f594c3e9-de62-4a10-bf50-983a248feca7"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+			(project "driver"
+				(path "/5490ef42-662b-4b9f-8690-bf83edd922c0"
 					(reference "R9")
 					(unit 1)
 				)
@@ -4263,6 +4307,12 @@
 					(unit 1)
 				)
 			)
+			(project "driver"
+				(path "/5490ef42-662b-4b9f-8690-bf83edd922c0"
+					(reference "TP15")
+					(unit 1)
+				)
+			)
 			(project "ierarchy_schematics"
 				(path "/c819dc93-27d2-47b6-913a-cb551da1681a/2b182cfb-842b-4228-9979-ad275531766b/2d9668f3-7b76-439d-a3c5-0a7e1f1fe966"
 					(reference "TP15")
@@ -4368,6 +4418,12 @@
 					(unit 1)
 				)
 				(path "/38b0823b-7f4f-42f0-94f6-b77a6bed2917/2b182cfb-842b-4228-9979-ad275531766b/f594c3e9-de62-4a10-bf50-983a248feca7"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+			(project "driver"
+				(path "/5490ef42-662b-4b9f-8690-bf83edd922c0"
 					(reference "R39")
 					(unit 1)
 				)
@@ -4485,6 +4541,12 @@
 					(unit 1)
 				)
 			)
+			(project "driver"
+				(path "/5490ef42-662b-4b9f-8690-bf83edd922c0"
+					(reference "J14")
+					(unit 1)
+				)
+			)
 			(project "ierarchy_schematics"
 				(path "/c819dc93-27d2-47b6-913a-cb551da1681a/2b182cfb-842b-4228-9979-ad275531766b/2d9668f3-7b76-439d-a3c5-0a7e1f1fe966"
 					(reference "J14")
@@ -4598,6 +4660,12 @@
 					(unit 1)
 				)
 			)
+			(project "driver"
+				(path "/5490ef42-662b-4b9f-8690-bf83edd922c0"
+					(reference "J15")
+					(unit 1)
+				)
+			)
 			(project "ierarchy_schematics"
 				(path "/c819dc93-27d2-47b6-913a-cb551da1681a/2b182cfb-842b-4228-9979-ad275531766b/2d9668f3-7b76-439d-a3c5-0a7e1f1fe966"
 					(reference "J15")
@@ -4703,6 +4771,12 @@
 					(unit 1)
 				)
 				(path "/38b0823b-7f4f-42f0-94f6-b77a6bed2917/2b182cfb-842b-4228-9979-ad275531766b/f594c3e9-de62-4a10-bf50-983a248feca7"
+					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+			(project "driver"
+				(path "/5490ef42-662b-4b9f-8690-bf83edd922c0"
 					(reference "#PWR082")
 					(unit 1)
 				)
@@ -4859,6 +4933,12 @@
 					(unit 1)
 				)
 			)
+			(project "driver"
+				(path "/5490ef42-662b-4b9f-8690-bf83edd922c0"
+					(reference "U9")
+					(unit 1)
+				)
+			)
 			(project "ierarchy_schematics"
 				(path "/c819dc93-27d2-47b6-913a-cb551da1681a/2b182cfb-842b-4228-9979-ad275531766b/2d9668f3-7b76-439d-a3c5-0a7e1f1fe966"
 					(reference "U9")
@@ -4967,6 +5047,12 @@
 					(unit 1)
 				)
 				(path "/38b0823b-7f4f-42f0-94f6-b77a6bed2917/2b182cfb-842b-4228-9979-ad275531766b/f594c3e9-de62-4a10-bf50-983a248feca7"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+			(project "driver"
+				(path "/5490ef42-662b-4b9f-8690-bf83edd922c0"
 					(reference "R40")
 					(unit 1)
 				)
@@ -5081,6 +5167,12 @@
 					(unit 1)
 				)
 			)
+			(project "driver"
+				(path "/5490ef42-662b-4b9f-8690-bf83edd922c0"
+					(reference "R10")
+					(unit 1)
+				)
+			)
 			(project "ierarchy_schematics"
 				(path "/c819dc93-27d2-47b6-913a-cb551da1681a/2b182cfb-842b-4228-9979-ad275531766b/2d9668f3-7b76-439d-a3c5-0a7e1f1fe966"
 					(reference "R10")
@@ -5187,6 +5279,12 @@
 					(unit 1)
 				)
 				(path "/38b0823b-7f4f-42f0-94f6-b77a6bed2917/2b182cfb-842b-4228-9979-ad275531766b/f594c3e9-de62-4a10-bf50-983a248feca7"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+			(project "driver"
+				(path "/5490ef42-662b-4b9f-8690-bf83edd922c0"
 					(reference "R37")
 					(unit 1)
 				)
@@ -5298,6 +5396,12 @@
 					(unit 1)
 				)
 			)
+			(project "driver"
+				(path "/5490ef42-662b-4b9f-8690-bf83edd922c0"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
 			(project "ierarchy_schematics"
 				(path "/c819dc93-27d2-47b6-913a-cb551da1681a/2b182cfb-842b-4228-9979-ad275531766b/2d9668f3-7b76-439d-a3c5-0a7e1f1fe966"
 					(reference "#PWR0112")
@@ -5405,6 +5509,12 @@
 					(unit 1)
 				)
 			)
+			(project "driver"
+				(path "/5490ef42-662b-4b9f-8690-bf83edd922c0"
+					(reference "TP13")
+					(unit 1)
+				)
+			)
 			(project "ierarchy_schematics"
 				(path "/c819dc93-27d2-47b6-913a-cb551da1681a/2b182cfb-842b-4228-9979-ad275531766b/2d9668f3-7b76-439d-a3c5-0a7e1f1fe966"
 					(reference "TP13")
@@ -5427,7 +5537,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 177.8 95.25 90)
+		(at 177.8 104.14 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -5438,7 +5548,7 @@
 		(dnp no)
 		(uuid "7b5236ac-8a06-4b1e-8020-8cd55b419507")
 		(property "Reference" "D10"
-			(at 173.482 96.52 90)
+			(at 173.482 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5448,7 +5558,7 @@
 			)
 		)
 		(property "Value" "Green LED"
-			(at 172.466 94.488 90)
+			(at 172.466 103.378 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5458,7 +5568,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
-			(at 177.8 95.25 0)
+			(at 177.8 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5469,7 +5579,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 95.25 0)
+			(at 177.8 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5480,7 +5590,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 177.8 95.25 0)
+			(at 177.8 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5491,7 +5601,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 177.8 95.25 0)
+			(at 177.8 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5522,6 +5632,12 @@
 					(unit 1)
 				)
 				(path "/38b0823b-7f4f-42f0-94f6-b77a6bed2917/2b182cfb-842b-4228-9979-ad275531766b/f594c3e9-de62-4a10-bf50-983a248feca7"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+			(project "driver"
+				(path "/5490ef42-662b-4b9f-8690-bf83edd922c0"
 					(reference "D10")
 					(unit 1)
 				)
@@ -5638,6 +5754,12 @@
 					(unit 1)
 				)
 			)
+			(project "driver"
+				(path "/5490ef42-662b-4b9f-8690-bf83edd922c0"
+					(reference "R41")
+					(unit 1)
+				)
+			)
 			(project "ierarchy_schematics"
 				(path "/c819dc93-27d2-47b6-913a-cb551da1681a/2b182cfb-842b-4228-9979-ad275531766b/2d9668f3-7b76-439d-a3c5-0a7e1f1fe966"
 					(reference "R41")
@@ -5743,6 +5865,12 @@
 					(unit 1)
 				)
 				(path "/38b0823b-7f4f-42f0-94f6-b77a6bed2917/2b182cfb-842b-4228-9979-ad275531766b/f594c3e9-de62-4a10-bf50-983a248feca7"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+			(project "driver"
+				(path "/5490ef42-662b-4b9f-8690-bf83edd922c0"
 					(reference "#PWR069")
 					(unit 1)
 				)
@@ -5871,6 +5999,12 @@
 					(unit 1)
 				)
 			)
+			(project "driver"
+				(path "/5490ef42-662b-4b9f-8690-bf83edd922c0"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
 			(project "ierarchy_schematics"
 				(path "/c819dc93-27d2-47b6-913a-cb551da1681a/2b182cfb-842b-4228-9979-ad275531766b/2d9668f3-7b76-439d-a3c5-0a7e1f1fe966"
 					(reference "Q8")
@@ -5974,6 +6108,12 @@
 					(unit 1)
 				)
 				(path "/38b0823b-7f4f-42f0-94f6-b77a6bed2917/2b182cfb-842b-4228-9979-ad275531766b/f594c3e9-de62-4a10-bf50-983a248feca7"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+			(project "driver"
+				(path "/5490ef42-662b-4b9f-8690-bf83edd922c0"
 					(reference "#PWR0116")
 					(unit 1)
 				)
@@ -6085,6 +6225,12 @@
 					(unit 1)
 				)
 			)
+			(project "driver"
+				(path "/5490ef42-662b-4b9f-8690-bf83edd922c0"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
 			(project "ierarchy_schematics"
 				(path "/c819dc93-27d2-47b6-913a-cb551da1681a/2b182cfb-842b-4228-9979-ad275531766b/2d9668f3-7b76-439d-a3c5-0a7e1f1fe966"
 					(reference "#PWR0114")
@@ -6107,7 +6253,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 186.69 95.25 90)
+		(at 186.69 109.22 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -6118,7 +6264,7 @@
 		(dnp no)
 		(uuid "a8e0a832-59e2-4e31-998a-74b030105c04")
 		(property "Reference" "D20"
-			(at 191.516 95.25 90)
+			(at 191.516 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6128,7 +6274,7 @@
 			)
 		)
 		(property "Value" "Green LED"
-			(at 194.818 92.202 90)
+			(at 194.818 106.172 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6138,7 +6284,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
-			(at 186.69 95.25 0)
+			(at 186.69 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6149,7 +6295,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 95.25 0)
+			(at 186.69 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6160,7 +6306,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 186.69 95.25 0)
+			(at 186.69 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6171,7 +6317,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 186.69 95.25 0)
+			(at 186.69 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6206,6 +6352,12 @@
 					(unit 1)
 				)
 			)
+			(project "driver"
+				(path "/5490ef42-662b-4b9f-8690-bf83edd922c0"
+					(reference "D20")
+					(unit 1)
+				)
+			)
 			(project "ierarchy_schematics"
 				(path "/c819dc93-27d2-47b6-913a-cb551da1681a/2b182cfb-842b-4228-9979-ad275531766b/2d9668f3-7b76-439d-a3c5-0a7e1f1fe966"
 					(reference "D20")
@@ -6221,6 +6373,83 @@
 				)
 				(path "/c819dc93-27d2-47b6-913a-cb551da1681a/2b182cfb-842b-4228-9979-ad275531766b/f594c3e9-de62-4a10-bf50-983a248feca7"
 					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 182.88 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aa53b6ec-8b0f-4a76-808d-07ae8d778d40")
+		(property "Reference" "#PWR0117"
+			(at 182.88 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND_DRV1"
+			(at 189.992 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 182.88 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "097cc50e-08fe-42ab-a8c4-431c0c93c81b")
+		)
+		(instances
+			(project "driver"
+				(path "/5490ef42-662b-4b9f-8690-bf83edd922c0"
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -6308,6 +6537,12 @@
 					(unit 1)
 				)
 				(path "/38b0823b-7f4f-42f0-94f6-b77a6bed2917/2b182cfb-842b-4228-9979-ad275531766b/f594c3e9-de62-4a10-bf50-983a248feca7"
+					(reference "TP14")
+					(unit 1)
+				)
+			)
+			(project "driver"
+				(path "/5490ef42-662b-4b9f-8690-bf83edd922c0"
 					(reference "TP14")
 					(unit 1)
 				)
@@ -6419,6 +6654,12 @@
 					(unit 1)
 				)
 			)
+			(project "driver"
+				(path "/5490ef42-662b-4b9f-8690-bf83edd922c0"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
 			(project "ierarchy_schematics"
 				(path "/c819dc93-27d2-47b6-913a-cb551da1681a/2b182cfb-842b-4228-9979-ad275531766b/2d9668f3-7b76-439d-a3c5-0a7e1f1fe966"
 					(reference "#PWR0113")
@@ -6522,6 +6763,12 @@
 					(unit 1)
 				)
 				(path "/38b0823b-7f4f-42f0-94f6-b77a6bed2917/2b182cfb-842b-4228-9979-ad275531766b/f594c3e9-de62-4a10-bf50-983a248feca7"
+					(reference "#PWR096")
+					(unit 1)
+				)
+			)
+			(project "driver"
+				(path "/5490ef42-662b-4b9f-8690-bf83edd922c0"
 					(reference "#PWR096")
 					(unit 1)
 				)
@@ -6635,6 +6882,12 @@
 					(unit 1)
 				)
 			)
+			(project "driver"
+				(path "/5490ef42-662b-4b9f-8690-bf83edd922c0"
+					(reference "R38")
+					(unit 1)
+				)
+			)
 			(project "ierarchy_schematics"
 				(path "/c819dc93-27d2-47b6-913a-cb551da1681a/2b182cfb-842b-4228-9979-ad275531766b/2d9668f3-7b76-439d-a3c5-0a7e1f1fe966"
 					(reference "R38")
@@ -6738,6 +6991,12 @@
 					(unit 1)
 				)
 				(path "/38b0823b-7f4f-42f0-94f6-b77a6bed2917/2b182cfb-842b-4228-9979-ad275531766b/f594c3e9-de62-4a10-bf50-983a248feca7"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+			(project "driver"
+				(path "/5490ef42-662b-4b9f-8690-bf83edd922c0"
 					(reference "#PWR0115")
 					(unit 1)
 				)
@@ -6851,6 +7110,12 @@
 					(unit 1)
 				)
 				(path "/38b0823b-7f4f-42f0-94f6-b77a6bed2917/2b182cfb-842b-4228-9979-ad275531766b/f594c3e9-de62-4a10-bf50-983a248feca7"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+			(project "driver"
+				(path "/5490ef42-662b-4b9f-8690-bf83edd922c0"
 					(reference "R42")
 					(unit 1)
 				)
@@ -6987,6 +7252,12 @@
 					(unit 1)
 				)
 			)
+			(project "driver"
+				(path "/5490ef42-662b-4b9f-8690-bf83edd922c0"
+					(reference "D19")
+					(unit 1)
+				)
+			)
 			(project "ierarchy_schematics"
 				(path "/c819dc93-27d2-47b6-913a-cb551da1681a/2b182cfb-842b-4228-9979-ad275531766b/2d9668f3-7b76-439d-a3c5-0a7e1f1fe966"
 					(reference "D19")
@@ -7091,6 +7362,12 @@
 					(unit 1)
 				)
 				(path "/38b0823b-7f4f-42f0-94f6-b77a6bed2917/2b182cfb-842b-4228-9979-ad275531766b/f594c3e9-de62-4a10-bf50-983a248feca7"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+			(project "driver"
+				(path "/5490ef42-662b-4b9f-8690-bf83edd922c0"
 					(reference "#PWR031")
 					(unit 1)
 				)
@@ -7219,6 +7496,12 @@
 					(unit 1)
 				)
 			)
+			(project "driver"
+				(path "/5490ef42-662b-4b9f-8690-bf83edd922c0"
+					(reference "J16")
+					(unit 1)
+				)
+			)
 			(project "ierarchy_schematics"
 				(path "/c819dc93-27d2-47b6-913a-cb551da1681a/2b182cfb-842b-4228-9979-ad275531766b/2d9668f3-7b76-439d-a3c5-0a7e1f1fe966"
 					(reference "J16")
@@ -7239,4 +7522,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )

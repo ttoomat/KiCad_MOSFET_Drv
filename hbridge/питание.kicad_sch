@@ -2804,6 +2804,12 @@
 			(uuid "cadd7692-a542-41ca-a974-ef24080b6ed2")
 		)
 		(instances
+			(project "питание"
+				(path "/02eb990c-99fd-4a85-bc80-9dd4ed5c3eea"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/5c304d23-1a3b-43ed-8f7a-219a4f2f60a2"
 					(reference "#PWR08")
@@ -2888,6 +2894,12 @@
 			(uuid "4c31e1f3-e3dc-451e-9494-b8fb6314cff0")
 		)
 		(instances
+			(project "питание"
+				(path "/02eb990c-99fd-4a85-bc80-9dd4ed5c3eea"
+					(reference "#PWR083")
+					(unit 1)
+				)
+			)
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/5c304d23-1a3b-43ed-8f7a-219a4f2f60a2"
 					(reference "#PWR083")
@@ -2972,6 +2984,12 @@
 			(uuid "c040a5cb-acee-4773-8c64-d6adf28f9005")
 		)
 		(instances
+			(project "питание"
+				(path "/02eb990c-99fd-4a85-bc80-9dd4ed5c3eea"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/5c304d23-1a3b-43ed-8f7a-219a4f2f60a2"
 					(reference "#PWR011")
@@ -3056,6 +3074,12 @@
 			(uuid "bd7c1eec-9844-44c0-aeb6-c0c2586e401f")
 		)
 		(instances
+			(project "питание"
+				(path "/02eb990c-99fd-4a85-bc80-9dd4ed5c3eea"
+					(reference "#PWR082")
+					(unit 1)
+				)
+			)
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/5c304d23-1a3b-43ed-8f7a-219a4f2f60a2"
 					(reference "#PWR082")
@@ -3148,6 +3172,12 @@
 			(uuid "9c5411f9-fa9c-47a7-adba-b11963dc0ec4")
 		)
 		(instances
+			(project "питание"
+				(path "/02eb990c-99fd-4a85-bc80-9dd4ed5c3eea"
+					(reference "U7")
+					(unit 1)
+				)
+			)
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/5c304d23-1a3b-43ed-8f7a-219a4f2f60a2"
 					(reference "U7")
@@ -3264,6 +3294,12 @@
 			(uuid "795fb10b-ac2a-49e3-9b37-85bf4d74e8e0")
 		)
 		(instances
+			(project "питание"
+				(path "/02eb990c-99fd-4a85-bc80-9dd4ed5c3eea"
+					(reference "U4")
+					(unit 1)
+				)
+			)
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/5c304d23-1a3b-43ed-8f7a-219a4f2f60a2"
 					(reference "U4")
@@ -3352,6 +3388,12 @@
 			(uuid "b2e9a931-b2a5-4888-a905-d3a6f39df8b1")
 		)
 		(instances
+			(project "питание"
+				(path "/02eb990c-99fd-4a85-bc80-9dd4ed5c3eea"
+					(reference "C4")
+					(unit 1)
+				)
+			)
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/5c304d23-1a3b-43ed-8f7a-219a4f2f60a2"
 					(reference "C4")
@@ -3468,6 +3510,12 @@
 			(uuid "9cb5ccbc-0727-4185-b072-f54041c79790")
 		)
 		(instances
+			(project "питание"
+				(path "/02eb990c-99fd-4a85-bc80-9dd4ed5c3eea"
+					(reference "U9")
+					(unit 1)
+				)
+			)
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/5c304d23-1a3b-43ed-8f7a-219a4f2f60a2"
 					(reference "U9")
@@ -3556,6 +3604,12 @@
 			(uuid "8d12e731-c6c0-46e6-857e-ad31fb53f982")
 		)
 		(instances
+			(project "питание"
+				(path "/02eb990c-99fd-4a85-bc80-9dd4ed5c3eea"
+					(reference "C2")
+					(unit 1)
+				)
+			)
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/5c304d23-1a3b-43ed-8f7a-219a4f2f60a2"
 					(reference "C2")
@@ -3640,6 +3694,12 @@
 			(uuid "8f519250-ef46-4ea7-b46d-a205b3ff2eb4")
 		)
 		(instances
+			(project "питание"
+				(path "/02eb990c-99fd-4a85-bc80-9dd4ed5c3eea"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/5c304d23-1a3b-43ed-8f7a-219a4f2f60a2"
 					(reference "#PWR09")
@@ -3723,6 +3783,12 @@
 			(uuid "481f5f9d-2d49-4e8b-bbc9-258d1d6776cf")
 		)
 		(instances
+			(project "питание"
+				(path "/02eb990c-99fd-4a85-bc80-9dd4ed5c3eea"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/5c304d23-1a3b-43ed-8f7a-219a4f2f60a2"
 					(reference "#PWR0117")
@@ -3810,6 +3876,12 @@
 			(uuid "01d1954d-1df0-4db4-9779-46e378a9731e")
 		)
 		(instances
+			(project "питание"
+				(path "/02eb990c-99fd-4a85-bc80-9dd4ed5c3eea"
+					(reference "C11")
+					(unit 1)
+				)
+			)
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/5c304d23-1a3b-43ed-8f7a-219a4f2f60a2"
 					(reference "C11")
@@ -3896,6 +3968,12 @@
 			(uuid "04013623-fbaf-4129-9510-5e6d2f7753bf")
 		)
 		(instances
+			(project "питание"
+				(path "/02eb990c-99fd-4a85-bc80-9dd4ed5c3eea"
+					(reference "J19")
+					(unit 1)
+				)
+			)
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/5c304d23-1a3b-43ed-8f7a-219a4f2f60a2"
 					(reference "J19")
@@ -3980,6 +4058,12 @@
 			(uuid "a2e3a862-faf3-4573-a86f-28174bff5f00")
 		)
 		(instances
+			(project "питание"
+				(path "/02eb990c-99fd-4a85-bc80-9dd4ed5c3eea"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/5c304d23-1a3b-43ed-8f7a-219a4f2f60a2"
 					(reference "#PWR010")
@@ -4064,6 +4148,12 @@
 			(uuid "e806e5a2-ad4a-4200-9874-b4a49b773930")
 		)
 		(instances
+			(project "питание"
+				(path "/02eb990c-99fd-4a85-bc80-9dd4ed5c3eea"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/5c304d23-1a3b-43ed-8f7a-219a4f2f60a2"
 					(reference "#PWR01")
@@ -4160,6 +4250,12 @@
 			(uuid "28e49d08-feda-4aa8-95d9-538c6e3aec72")
 		)
 		(instances
+			(project "питание"
+				(path "/02eb990c-99fd-4a85-bc80-9dd4ed5c3eea"
+					(reference "U20")
+					(unit 1)
+				)
+			)
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/5c304d23-1a3b-43ed-8f7a-219a4f2f60a2"
 					(reference "U20")
@@ -4244,6 +4340,12 @@
 			(uuid "8869e148-e74b-4276-bcee-b172d401dae7")
 		)
 		(instances
+			(project "питание"
+				(path "/02eb990c-99fd-4a85-bc80-9dd4ed5c3eea"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/5c304d23-1a3b-43ed-8f7a-219a4f2f60a2"
 					(reference "#PWR02")
@@ -4328,6 +4430,12 @@
 			(uuid "36dc11ca-02cd-4822-9a0b-9c16eb193a8b")
 		)
 		(instances
+			(project "питание"
+				(path "/02eb990c-99fd-4a85-bc80-9dd4ed5c3eea"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/5c304d23-1a3b-43ed-8f7a-219a4f2f60a2"
 					(reference "#PWR043")
@@ -4342,4 +4450,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
