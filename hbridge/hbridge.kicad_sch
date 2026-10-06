@@ -3325,12 +3325,6 @@
 		(uuid "3356c265-0bd9-4c31-b257-4a4934935c2f")
 	)
 	(junction
-		(at 199.39 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "33889cc9-cfc7-48aa-9392-664b4738b282")
-	)
-	(junction
 		(at 293.37 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3431,12 +3425,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5aa1ca0b-d588-4465-b53b-8335e23cc95f")
-	)
-	(junction
-		(at 236.22 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c59793c-944d-47c3-9bb3-6cec7905a985")
 	)
 	(junction
 		(at 125.73 181.61)
@@ -3805,12 +3793,6 @@
 		(uuid "eb7f62bf-2937-47dd-bac8-6b400862956b")
 	)
 	(junction
-		(at 137.16 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ec2c8c7f-c8f3-4f6d-b4fc-96b7d86bdc88")
-	)
-	(junction
 		(at 331.47 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4082,7 +4064,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 38.1) (xy 240.03 38.1)
+			(xy 227.33 38.1) (xy 240.03 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4219,16 +4201,6 @@
 			(type default)
 		)
 		(uuid "12900363-64f0-4040-ab2f-421ff6e09c7c")
-	)
-	(wire
-		(pts
-			(xy 236.22 60.96) (xy 199.39 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "131ee36b-3bd8-4640-aab3-e32eb948c82d")
 	)
 	(wire
 		(pts
@@ -6212,16 +6184,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 38.1) (xy 236.22 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8456b3ab-94a1-47a8-bbd1-7b7a2fa9cead")
-	)
-	(wire
-		(pts
 			(xy 355.6 165.1) (xy 355.6 168.91)
 		)
 		(stroke
@@ -6322,7 +6284,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 53.34) (xy 199.39 60.96)
+			(xy 199.39 53.34) (xy 199.39 55.88)
 		)
 		(stroke
 			(width 0)
@@ -6502,16 +6464,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 38.1) (xy 236.22 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95ec1425-ed89-4015-9435-467744c34000")
-	)
-	(wire
-		(pts
 			(xy 43.18 143.51) (xy 43.18 146.05)
 		)
 		(stroke
@@ -6549,16 +6501,6 @@
 			(type default)
 		)
 		(uuid "974ee044-d164-4c39-b70a-71520cff1e15")
-	)
-	(wire
-		(pts
-			(xy 199.39 77.47) (xy 137.16 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9794d7ac-50f5-4b8e-a326-b1790e7cae1d")
 	)
 	(wire
 		(pts
@@ -6709,16 +6651,6 @@
 			(type default)
 		)
 		(uuid "9e1a6d94-5bfe-4701-84dc-96d07d677dba")
-	)
-	(wire
-		(pts
-			(xy 137.16 77.47) (xy 137.16 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e4e64c1-748a-4936-a7ab-142bacd67b6b")
 	)
 	(wire
 		(pts
@@ -7259,16 +7191,6 @@
 			(type default)
 		)
 		(uuid "be8edba1-46c1-4bf3-aa2e-ccb8b1b994be")
-	)
-	(wire
-		(pts
-			(xy 199.39 60.96) (xy 199.39 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf6a77f7-cd1d-4131-82ec-f53d014be0b7")
 	)
 	(wire
 		(pts
@@ -9020,23 +8942,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "298d742b-59ff-4d31-a5d7-c11f01bf62b6")
+			(uuid "65eefa73-df94-4016-85d6-4c639f67e0e2")
 		)
 		(pin "2"
-			(uuid "20af5373-4830-4b6e-98ae-0d4001d053cf")
+			(uuid "faafde7b-1a5f-48e8-8a35-12b44af00f09")
 		)
 		(pin "3"
-			(uuid "f4c3204f-e64f-460e-b17b-ef319f7355af")
+			(uuid "7de720c7-43d7-460c-bcc4-a3bf40eb4db6")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "J6")
 					(unit 1)
 				)
@@ -9108,17 +9024,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "8bd6e22f-8c9b-4287-baf3-2fe47bc0145f")
+			(uuid "390ed5df-6589-4526-a29f-9a8e185896a9")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "TP17")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "TP17")
 					(unit 1)
 				)
@@ -9193,20 +9103,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "f55f3eb1-f777-4a03-9a32-9a81517d461a")
+			(uuid "36319213-0e33-4fbf-9722-24a4a87d250f")
 		)
 		(pin "2"
-			(uuid "64b559af-7121-4d04-8ac7-fd0436c544ec")
+			(uuid "a74d3793-88c0-494a-b81f-6bc2e6bd3e17")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "R8")
 					(unit 1)
 				)
@@ -9279,17 +9183,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "3361a229-2fc2-40d8-b680-b7e258d3316e")
+			(uuid "7c2e885d-ec62-465d-a350-300452275a7e")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "TP22")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "TP22")
 					(unit 1)
 				)
@@ -9362,17 +9260,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "d4ccc49d-3fb6-4b95-9172-fc60a30ab165")
+			(uuid "001edb15-a2ef-4ec3-9afc-4621cf57d814")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "#PWR0107")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR0107")
 					(unit 1)
 				)
@@ -9467,20 +9359,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "a60d55c7-5872-40e5-a320-ca2a9d164889")
+			(uuid "eccb7164-1095-43ff-9634-82a89b31720d")
 		)
 		(pin "2"
-			(uuid "c279cea3-f326-481a-915f-b45c7a52e79a")
+			(uuid "20b36654-c254-40fc-b0b8-c79ef81679c0")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "D20")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "D20")
 					(unit 1)
 				)
@@ -9555,7 +9441,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f7a81c77-869f-471a-a0f5-93d13e6da2f1")
+			(uuid "d7d1f313-3522-4ee9-aafe-fb18247323a9")
 		)
 		(pin "4"
 			(uuid "7f53578e-42f8-42ea-a9ac-0a541d83f215")
@@ -9567,20 +9453,14 @@
 			(uuid "261701fc-c10c-4531-a7dc-dcf85efbdf96")
 		)
 		(pin "2"
-			(uuid "b1e6f11f-20a6-4047-8f47-4f821180334e")
+			(uuid "1467e895-f5a8-4fdb-b800-d4b6a000aad4")
 		)
 		(pin "3"
-			(uuid "712e0631-5399-4a72-af3e-7befcf275cfe")
+			(uuid "484d31b5-c87b-449f-a07b-b1cc1218f8a8")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "Q5")
 					(unit 1)
 				)
@@ -9653,17 +9533,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "5f265294-6757-4ea5-a397-9cde1bc4206c")
+			(uuid "81a1069c-fbe0-485e-bb65-f5bfbf6992dd")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "#PWR0110")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR0110")
 					(unit 1)
 				)
@@ -9738,20 +9612,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "aa347983-9dda-4158-8133-8f17744d9e72")
+			(uuid "54493054-415e-423a-bbb9-887038ac2eaa")
 		)
 		(pin "1"
-			(uuid "4b8a3922-7609-487f-9cf9-98dd22724613")
+			(uuid "4909f68f-f3b5-4417-855b-6ffa67c6d0eb")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "C3")
 					(unit 1)
 				)
@@ -9826,20 +9694,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "24119aea-0e0c-4f92-b3ca-7fb8ea9ddcac")
+			(uuid "f066a100-4f9f-4660-a1a0-972cf07639c8")
 		)
 		(pin "1"
-			(uuid "2b0fa27d-51fa-40e9-a008-349096675490")
+			(uuid "e9873fc3-347a-4604-b658-74ab6a3f429e")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "C1")
 					(unit 1)
 				)
@@ -9914,20 +9776,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "cb6deba3-643d-4aa5-b8ea-b9816865506f")
+			(uuid "4e30ea4e-765d-4c0b-af5f-b2360401ef89")
 		)
 		(pin "1"
-			(uuid "065a8551-c2fb-4f7e-9b6f-7f562d985e8d")
+			(uuid "2877d6d0-b6b6-4ff6-9636-4beed18261dc")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "C7")
 					(unit 1)
 				)
@@ -10000,62 +9856,56 @@
 			)
 		)
 		(pin "3"
-			(uuid "2f698e2d-ad5d-4fbc-aa75-79f7ea37e922")
+			(uuid "a1440b94-cf86-47c1-8314-69a7fdf4b61a")
 		)
 		(pin "2"
-			(uuid "4c8553b0-b36c-4ac0-a627-9f5dd8a068d5")
+			(uuid "4d441082-9340-4f0f-82c5-a65bdfbd689f")
 		)
 		(pin "6"
-			(uuid "9f4e122c-d816-4a42-88d5-3c593a7ee7c6")
+			(uuid "1e287602-81ca-496b-850f-ae5a500ce778")
 		)
 		(pin "4"
-			(uuid "33e99f09-7064-4a57-8c8a-3a7866ebfa03")
+			(uuid "212528a0-601b-49ef-8498-ee8e2998db0d")
 		)
 		(pin "16"
-			(uuid "1bf2ce1b-da00-4fb2-8330-b93ed63581b8")
+			(uuid "c30c58db-78f7-431f-8e69-c63d85fbdbb4")
 		)
 		(pin "9"
-			(uuid "070253e7-5278-4def-a459-0c6688b3a3b7")
+			(uuid "61c337d4-eac6-4a9d-80a5-a95a1104954a")
 		)
 		(pin "1"
-			(uuid "24a24b89-2d93-486c-a84f-c8eb5974c2d6")
+			(uuid "5da55b67-3654-4fbc-92bc-937e76f75ba2")
 		)
 		(pin "8"
-			(uuid "b6979237-8e73-45bc-bdd5-a3117958dbd3")
+			(uuid "c7695d87-cf19-463e-82a2-f5072d742972")
 		)
 		(pin "5"
-			(uuid "4d077cdc-3577-472a-99fa-6dd70c49996d")
+			(uuid "d82e8f05-2aa5-4676-8e1c-66203e1052a4")
 		)
 		(pin "7"
-			(uuid "fa45f373-e6f7-43d4-842d-13c59f7e021d")
+			(uuid "ab3376a0-c50d-4165-b2e9-1142ec6366cb")
 		)
 		(pin "15"
-			(uuid "ee22bdea-5a86-442a-9e09-4f5459946fcc")
+			(uuid "54d15469-0752-4c3f-9701-ba7bb5e9c572")
 		)
 		(pin "12"
-			(uuid "75058730-b549-4b43-8f2d-24571667863e")
+			(uuid "3d75f300-822c-4b7c-b794-716e6e6a5c98")
 		)
 		(pin "13"
-			(uuid "4e4b0132-abb6-4ed4-9a31-cd7ef668e9bf")
+			(uuid "42c17e26-088d-481c-9426-e9e20d5ee8f1")
 		)
 		(pin "11"
-			(uuid "9457f476-2c95-45c5-8cb0-ee9eb193d006")
+			(uuid "7a28d5fd-a390-42f2-9b65-421268634656")
 		)
 		(pin "14"
-			(uuid "34a1d1ad-26f6-4c09-b129-ce7ed0a291b0")
+			(uuid "c44515bc-6856-4aaa-950a-f027ceea9405")
 		)
 		(pin "10"
-			(uuid "faba46b5-a0cf-4968-90bd-b469cef8d35a")
+			(uuid "3d1839a4-2664-4663-bd4b-06f0696149d5")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "U2")
 					(unit 1)
 				)
@@ -10130,17 +9980,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "3af44e30-81a7-4b69-a153-7caaae073bf8")
+			(uuid "4f9b7e58-a75f-4bd4-80a8-52537c3db4c5")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "#PWR068")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR068")
 					(unit 1)
 				)
@@ -10212,20 +10056,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "6762593f-85da-4bc0-8213-711063108ec4")
+			(uuid "bbea9001-9246-4eaf-b97d-d5ec3b5f18ed")
 		)
 		(pin "1"
-			(uuid "5469b5b3-5a3a-4913-8465-d955ec3d9da3")
+			(uuid "6f08eb15-17bb-4e76-9e4c-01a9f83fb42f")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "R42")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "R42")
 					(unit 1)
 				)
@@ -10298,20 +10136,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "cbfb967c-58cb-402e-b5b1-b258225e8519")
+			(uuid "8835ce48-33e5-473a-915c-de5b82ff0c7a")
 		)
 		(pin "1"
-			(uuid "d76ee790-4c46-42e4-9bc6-daed2c50a02d")
+			(uuid "5ddb1dde-8337-4fab-815e-3f9700479c1c")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "R1")
 					(unit 1)
 				)
@@ -10384,23 +10216,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "6858588b-c871-48a3-9aa3-1fe85ca3cd8d")
+			(uuid "1f18b319-08c7-47f0-9801-569e841cb577")
 		)
 		(pin "2"
-			(uuid "e2337322-28e4-414d-8661-826790b83cc1")
+			(uuid "1187e37f-b317-4ca7-acdd-05c456a4f438")
 		)
 		(pin "3"
-			(uuid "4f1e3ffb-bf35-4a3e-aa0d-4e5e8b8921f2")
+			(uuid "2704e85e-deb5-40cc-8808-e66c6b6edeed")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "J15")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "J15")
 					(unit 1)
 				)
@@ -10473,17 +10299,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "49532456-6025-49fd-8b62-07a3ceaa329c")
+			(uuid "cc1e28de-eb6f-4b78-b741-8df27ae516f8")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "#PWR0101")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR0101")
 					(unit 1)
 				)
@@ -10558,17 +10378,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "a4feaa8d-d60f-4d95-86cf-edbccc5a8893")
+			(uuid "cf416fbc-6e41-4ee5-a4f6-a3ecb3a57b6a")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR067")
 					(unit 1)
 				)
@@ -10643,20 +10457,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "b5b382d0-9dfa-4053-aba3-569be6ede775")
+			(uuid "4be2a819-5afd-46bc-a38a-db05cf3d28eb")
 		)
 		(pin "2"
-			(uuid "440a00ef-c9a9-456c-8573-2cdb10dfdf04")
+			(uuid "36e3000a-66c8-49ef-8cc0-2c95c972a913")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "R47")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "R47")
 					(unit 1)
 				)
@@ -10731,17 +10539,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "3c64c6b5-8f77-4208-95c3-644746773ba3")
+			(uuid "0fd33702-bf9a-4d28-8d78-9e37466ed04c")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "#PWR065")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR065")
 					(unit 1)
 				)
@@ -10814,23 +10616,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "d48ad15d-ea78-4d7b-b972-2145babc76bc")
+			(uuid "e5a38dc8-bfff-4a4c-9dae-001387304dec")
 		)
 		(pin "2"
-			(uuid "f0c56c51-9561-491e-a3ba-e9e092482a73")
+			(uuid "2cdecf97-d3f0-49b5-8291-95d80e76a1ad")
 		)
 		(pin "3"
-			(uuid "5aaa323c-c378-4c42-ad05-6a996d59a716")
+			(uuid "43b35aae-ec6a-4894-b2f2-7c78feaf08d3")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "J9")
 					(unit 1)
 				)
@@ -10903,7 +10699,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "973fafa9-2c7c-4950-994d-1c7684f6c879")
+			(uuid "3524a5d9-ecb1-4009-b72a-3ec61a172278")
 		)
 		(instances
 			(project "hbridge"
@@ -10912,9 +10708,80 @@
 					(unit 1)
 				)
 			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "#PWR0108")
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 199.39 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2f312318-2d9b-4542-be48-3f5ff20acc6d")
+		(property "Reference" "#PWR0119"
+			(at 199.39 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND_DRV1"
+			(at 206.502 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 199.39 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4a1e14a1-cacc-44b9-893b-b4706cb7b486")
+		)
+		(instances
+			(project "hbridge"
+				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -10986,17 +10853,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "b67b242a-c71f-48aa-a163-15f8c8eb13ee")
+			(uuid "2a16dd30-96bc-432a-a7d3-c6185dd5db31")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "#PWR089")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR089")
 					(unit 1)
 				)
@@ -11070,17 +10931,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "472f62f5-c09f-4de1-afc7-d7278028fe70")
+			(uuid "80fc3f77-41d2-4f99-bb56-c84d09b070ee")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR029")
 					(unit 1)
 				)
@@ -11154,17 +11009,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "d2e58702-daa0-4dd7-9b44-744b170c9166")
+			(uuid "210dc1fb-8955-403c-b57f-affde45c7e30")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "TP15")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "TP15")
 					(unit 1)
 				)
@@ -11239,7 +11088,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "aa38cca2-87b4-4417-9187-05be3c102535")
+			(uuid "d05f86b2-3b8d-451d-8efb-08174fe68850")
 		)
 		(pin "4"
 			(uuid "7f53578e-42f8-42ea-a9ac-0a541d83f216")
@@ -11251,20 +11100,14 @@
 			(uuid "261701fc-c10c-4531-a7dc-dcf85efbdf97")
 		)
 		(pin "2"
-			(uuid "b1e6f11f-20a6-4047-8f47-4f821180334f")
+			(uuid "b4d9c6bc-8719-4b14-a6b9-c75007dbe743")
 		)
 		(pin "3"
-			(uuid "92e948ec-0ce6-4f5e-a65b-0d0993d48184")
+			(uuid "96e53982-0e87-44ed-b60d-95a3e4ffb2cd")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "Q7")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "Q7")
 					(unit 1)
 				)
@@ -11337,17 +11180,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "6a277ce9-2aa6-4f50-ab70-42577d6c209a")
+			(uuid "af20fe18-fd47-4c10-9a1e-1d9d2c30c390")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "#PWR0113")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR0113")
 					(unit 1)
 				)
@@ -11420,17 +11257,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "915b0f5c-77e5-4e11-841a-37d73199eff0")
+			(uuid "def83cf9-bdbd-4e47-b757-76777df8cc1e")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "#PWR096")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR096")
 					(unit 1)
 				)
@@ -11503,17 +11334,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "ce3ac9de-4719-4fe9-8a5e-4e90a19a4983")
+			(uuid "3d7a3969-d209-452f-a2d6-866d372c598b")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "#PWR0111")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR0111")
 					(unit 1)
 				)
@@ -11586,17 +11411,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "055cf5fd-f993-412b-8c05-72d53edc7758")
+			(uuid "bd38c2c1-ae63-4320-b115-bf9c7d39df35")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "#PWR0105")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR0105")
 					(unit 1)
 				)
@@ -11669,23 +11488,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "a3f1add7-2bdf-423c-b3aa-fd79fd314c7a")
+			(uuid "d8547ab1-9164-4005-aecf-f8ccfdadb8de")
 		)
 		(pin "2"
-			(uuid "32b2646b-de91-47f1-bdbf-5692e2010557")
+			(uuid "98e76dfe-7a33-453e-8079-1f033d67d3df")
 		)
 		(pin "3"
-			(uuid "65def633-432a-49f7-bc3e-be8d6dd60663")
+			(uuid "0440bfda-2290-4b0c-90ae-85602933403c")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "J17")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "J17")
 					(unit 1)
 				)
@@ -11759,17 +11572,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "93faaf78-0046-4c98-b180-203761a2f449")
+			(uuid "ea5a1d9c-8d27-41c8-975d-e3de6c1543c5")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR030")
 					(unit 1)
 				)
@@ -11841,20 +11648,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "5f97ee1e-fd31-4343-a8c3-9975ee713bbf")
+			(uuid "587b6932-7ca4-47eb-8307-28c3eb616ca6")
 		)
 		(pin "1"
-			(uuid "002ecd13-007c-4bf5-bf27-a6a91c826cdd")
+			(uuid "36d66828-9151-4d41-8a9e-0915901d4fea")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "R2")
 					(unit 1)
 				)
@@ -11929,13 +11730,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "ffe5b7fb-27d5-40e5-8608-253d935d6dc0")
+			(uuid "1e2830e7-7505-43bd-8fd6-cbeb5a4e9483")
 		)
 		(pin "4"
 			(uuid "7f53578e-42f8-42ea-a9ac-0a541d83f217")
 		)
 		(pin "2"
-			(uuid "8049abc6-d28c-4861-a207-a55ec2fcbad5")
+			(uuid "ef659cde-338e-4b72-8782-894b43c3ced8")
 		)
 		(pin "3"
 			(uuid "ac73c30b-a38a-438b-b506-49ac8756ce28")
@@ -11944,17 +11745,11 @@
 			(uuid "4315bab1-b752-448a-9845-f96d7ce90fca")
 		)
 		(pin "3"
-			(uuid "92e948ec-0ce6-4f5e-a65b-0d0993d48185")
+			(uuid "497364ba-870e-403a-aec6-ec03e4853bc1")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "Q6")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "Q6")
 					(unit 1)
 				)
@@ -12028,17 +11823,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "d8fe8f1b-7fbc-4a73-9ae4-9c7315afebf7")
+			(uuid "22e42547-532f-4d36-956a-a177be9fa2c3")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "TP24")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "TP24")
 					(unit 1)
 				)
@@ -12110,20 +11899,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "428392ba-96f1-4751-96dc-830d6f052e0f")
+			(uuid "cfe99d1e-478a-434a-b8f0-cb7c9028fa2b")
 		)
 		(pin "1"
-			(uuid "ee596c94-a81f-4612-8d86-3ecd2bc6d3ba")
+			(uuid "326f901a-a1b7-46cd-80f9-76518feb5108")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "R6")
 					(unit 1)
 				)
@@ -12197,17 +11980,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "c4d999e7-a709-4cc2-8feb-d2699f74aba9")
+			(uuid "09f98f6e-373d-4ce6-ba42-83608bb37146")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "TP21")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "TP21")
 					(unit 1)
 				)
@@ -12282,20 +12059,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "b2d24d19-2f88-43c1-8d97-8477583048e7")
+			(uuid "8055d777-275d-463e-91e6-b795f638d256")
 		)
 		(pin "1"
-			(uuid "160d2fbc-ac34-45c9-8188-30e954b12685")
+			(uuid "062b2e9c-c483-4327-a888-9cfec148d6aa")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "C13")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "C13")
 					(unit 1)
 				)
@@ -12368,17 +12139,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "ae974feb-ea77-4d6f-9083-485a853296b5")
+			(uuid "8937d465-13f2-49ab-9233-bee92497446b")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "#PWR088")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR088")
 					(unit 1)
 				)
@@ -12452,17 +12217,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "504c9f86-c1eb-4d46-b185-2478ab292039")
+			(uuid "3d3ba1b8-2628-4d5c-8633-9ad3dab55568")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR027")
 					(unit 1)
 				)
@@ -12535,17 +12294,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "b4bb7189-3d9d-430c-b988-584b0a56c44a")
+			(uuid "58fb1b12-2e4c-468e-87af-6cc803294438")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "TP13")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "TP13")
 					(unit 1)
 				)
@@ -12620,17 +12373,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "ac2cd9a6-084e-402e-a9ad-86478c8851b6")
+			(uuid "db77db45-ad53-4930-8dd3-70baeecc36e2")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "#PWR080")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR080")
 					(unit 1)
 				)
@@ -12704,17 +12451,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "ccab24db-39b6-477c-9714-c287f9ea95c5")
+			(uuid "945e86ac-f16e-4cfa-a4fc-955e5eb37f03")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR03")
 					(unit 1)
 				)
@@ -12789,17 +12530,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "c1cdec82-7cb3-4096-9289-5c4e8d33ffd0")
+			(uuid "681c17ab-f69c-4666-813f-2b52486bbb91")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "#PWR079")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR079")
 					(unit 1)
 				)
@@ -12872,17 +12607,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "a72be4bf-571b-4e16-bdc4-569433089f38")
+			(uuid "8251d2a2-bce2-4452-8847-c199873fe507")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "#PWR097")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR097")
 					(unit 1)
 				)
@@ -12957,20 +12686,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "cd23674c-9ff0-44e1-863e-8937a9dd7341")
+			(uuid "30c62a99-da5b-47c7-aec5-284a314fe09c")
 		)
 		(pin "1"
-			(uuid "07e70908-1156-42ba-84cb-ed055c415a2a")
+			(uuid "1e0bba5e-679e-4e93-aaad-f5e28869f973")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "R48")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "R48")
 					(unit 1)
 				)
@@ -13045,20 +12768,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "483d7b96-bc35-4e38-a95d-90cd008e5410")
+			(uuid "13763e04-a003-44d1-aa23-41bea807e6a7")
 		)
 		(pin "1"
-			(uuid "37a2c21d-c3d4-48a0-934c-f21c9e8bd547")
+			(uuid "f4a2b462-211b-4759-8037-baf304d85065")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "R46")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "R46")
 					(unit 1)
 				)
@@ -13134,17 +12851,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "4dfc38e3-4879-49ce-9903-e058190906e8")
+			(uuid "65a0653f-fa51-43e2-af48-be61b20b8fa5")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "J14")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "J14")
 					(unit 1)
 				)
@@ -13217,17 +12928,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "8f552486-43a2-4d7f-9ce5-51125128560a")
+			(uuid "12dc11b8-4e1f-4aed-9af7-d68e7ec7d86b")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "#PWR0106")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR0106")
 					(unit 1)
 				)
@@ -13299,17 +13004,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "54c05e2f-f670-4a02-864f-87eb9a3f1381")
+			(uuid "4fac12ae-367b-4da8-a7b6-e8876768a552")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "TP14")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "TP14")
 					(unit 1)
 				)
@@ -13393,20 +13092,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "edb4c5f8-b762-47a2-8361-5eae92b2cbd4")
+			(uuid "0c8ee4f0-def9-4d3d-ab06-a3c8afc160db")
 		)
 		(pin "2"
-			(uuid "694d1892-6c94-4865-a03c-8f54fc9b3762")
+			(uuid "b07bb7d6-dcf0-421b-95fa-e466b636f71a")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "D23")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "D23")
 					(unit 1)
 				)
@@ -13479,23 +13172,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "e42f1150-e67c-4f2e-a4b4-cfa1e6b57120")
+			(uuid "8e0e985d-3830-496f-ad87-0b7f7d77ad5f")
 		)
 		(pin "2"
-			(uuid "2a9e3753-c57e-4e0b-99fa-74876d410f91")
+			(uuid "fe383361-a323-4c3b-91a7-e0173dc493e1")
 		)
 		(pin "3"
-			(uuid "d28a6d25-16e2-4bb0-9559-32983c38356d")
+			(uuid "62ed8fce-b8e1-47a7-9ba2-233ef8f02d10")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "J18")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "J18")
 					(unit 1)
 				)
@@ -13569,17 +13256,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "2ceb23e5-8dfa-47fd-8b3e-2fa42ac8109d")
+			(uuid "d8703212-5251-4991-8b78-9ea3d4e81480")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR028")
 					(unit 1)
 				)
@@ -13652,17 +13333,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "8cdfbb39-109c-4e0d-9616-9cecf9a60c44")
+			(uuid "b4c112a1-5282-4f4f-8664-5d63490d7433")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "#PWR099")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR099")
 					(unit 1)
 				)
@@ -13746,20 +13421,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "7cb8c1bb-0c15-412b-9e2d-38ac080f01fe")
+			(uuid "af851672-7169-4703-b55f-261ba3d14862")
 		)
 		(pin "2"
-			(uuid "4dc9385f-2ea7-4a70-881f-a640cc6127c6")
+			(uuid "aa903c27-2418-456f-8301-35519c136fd7")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "D3")
 					(unit 1)
 				)
@@ -13854,20 +13523,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "e3445550-4713-4d18-a70a-23d3f2d48dca")
+			(uuid "87c7b108-f8cc-425d-9835-fae7baef4e02")
 		)
 		(pin "2"
-			(uuid "fa3b12d0-e980-49fb-80c9-bcd5aed6de15")
+			(uuid "44f657fa-d1bd-4e3a-bfe1-f7e5af53591b")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "D19")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "D19")
 					(unit 1)
 				)
@@ -13942,20 +13605,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "787dea04-9d9e-463b-8d56-922e38ec7325")
+			(uuid "5ee9a6e3-ede1-48e2-bfbc-a558ee1558d6")
 		)
 		(pin "2"
-			(uuid "47df0085-8489-4884-894f-c32b1ae9c667")
+			(uuid "796821fe-2b43-45f2-9e5e-630e13bb5794")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "R44")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "R44")
 					(unit 1)
 				)
@@ -14028,17 +13685,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "82863d84-3f63-4b76-b8e8-a374f5fec87d")
+			(uuid "b78f05f0-5b7f-4ad4-b05b-7d34387c0390")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "#PWR0104")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR0104")
 					(unit 1)
 				)
@@ -14113,20 +13764,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "ce7e44c1-5780-4260-a7b4-d71bc1fd49f5")
+			(uuid "c9f76417-5697-4794-9b8b-269ef3086c95")
 		)
 		(pin "2"
-			(uuid "1f8f33b7-1252-47c7-80cb-4439d99fdd5f")
+			(uuid "b359ed43-c4c9-4598-b61f-8c31784dc3dd")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "R9")
 					(unit 1)
 				)
@@ -14201,20 +13846,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "82f54e95-0da3-4f75-a288-106234b4cde2")
+			(uuid "fea9399b-8cfa-435d-ae0a-50c30bf9dcab")
 		)
 		(pin "2"
-			(uuid "96c55751-deda-4b9a-9c0c-9dc2d9cf3a56")
+			(uuid "d6080642-1019-4e27-a81d-a1d5642cbc14")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "R43")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "R43")
 					(unit 1)
 				)
@@ -14287,23 +13926,17 @@
 			)
 		)
 		(pin "3"
-			(uuid "9c222edf-d746-4700-8e7d-066e9dba15f7")
+			(uuid "7ec36528-21b9-4926-b242-ed3d6ab3e4b8")
 		)
 		(pin "1"
-			(uuid "e881b62a-33c2-479c-94c1-d5289af3c05c")
+			(uuid "396c3d96-16bf-4cfa-9135-3719ef7f7668")
 		)
 		(pin "2"
-			(uuid "2888a360-bdbe-43da-bfa6-630af909411a")
+			(uuid "1e7a9051-c66b-4369-aaf0-f3af102d5704")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "U1")
 					(unit 1)
 				)
@@ -14378,20 +14011,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "3abe3f7e-9bfb-4df0-be47-f8461285e427")
+			(uuid "ae93a48d-b194-4885-ab61-f2a62cfcf79a")
 		)
 		(pin "2"
-			(uuid "81d4d34e-e9fb-46e5-a9e9-869c7a2d2f69")
+			(uuid "b31f0173-435a-484f-b943-951d9f3dd708")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "R7")
 					(unit 1)
 				)
@@ -14464,17 +14091,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "bf1ac02b-4b47-4c28-8932-2d04b937af4a")
+			(uuid "78755c75-16c3-4bb9-81d9-7918c9dc044c")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "#PWR095")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR095")
 					(unit 1)
 				)
@@ -14547,20 +14168,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "8d0388a4-9b11-4fc1-93f7-f3ff52d82bc9")
+			(uuid "5593fef4-b5b5-48fd-9ee7-294fd3d32411")
 		)
 		(pin "1"
-			(uuid "bec4ee73-f6d5-46ef-af47-3e4194d7bfa4")
+			(uuid "c28b89f2-ce2a-419c-b6ed-1fa58a00fc51")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "R37")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "R37")
 					(unit 1)
 				)
@@ -14633,20 +14248,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "1353c733-0226-4222-917e-8b16b8ec4fce")
+			(uuid "e22a47ef-5e26-4481-a4ba-f73e370b3291")
 		)
 		(pin "1"
-			(uuid "26ffdffd-014a-4439-bc8f-8d1dff75615e")
+			(uuid "6b46c579-0ba0-41a8-8199-dcd10ba474ec")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "R4")
 					(unit 1)
 				)
@@ -14730,20 +14339,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "c49c2b38-ecd3-492c-a668-76f6e39faea1")
+			(uuid "a7d75db7-0929-4bc5-8444-5eefa62c6f83")
 		)
 		(pin "2"
-			(uuid "c26e4cc6-8cf0-4603-871f-fc3c00ca0d0b")
+			(uuid "66e45c38-61dc-4231-985c-9f1179a761d8")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "D22")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "D22")
 					(unit 1)
 				)
@@ -14816,17 +14419,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "c4ce00a4-89c2-497a-8ebc-859ad1922c8f")
+			(uuid "30d631b1-78e0-44a7-8d30-10215e179102")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "#PWR094")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR094")
 					(unit 1)
 				)
@@ -14898,17 +14495,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "da9d80a9-d6f6-4c6f-9dd9-bfaedf7d7cbd")
+			(uuid "251f6a38-3a12-4d28-9792-10a5e2daf37b")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "TP20")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "TP20")
 					(unit 1)
 				)
@@ -14981,17 +14572,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "00c9c362-4856-45c9-8ba9-55ba64669e5c")
+			(uuid "e1b703ef-9938-4151-8990-9feb5a3ae2da")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "#PWR0116")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR0116")
 					(unit 1)
 				)
@@ -15063,23 +14648,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "756ab7a6-4cd1-4046-9331-97c139e81d0d")
+			(uuid "ece70ba3-aac3-45ea-b290-af6b8c75ea51")
 		)
 		(pin "2"
-			(uuid "4854912d-a955-4ee3-befc-28fb1498575e")
+			(uuid "cbcf74aa-d5c2-4c01-a9a4-a15c108b13e3")
 		)
 		(pin "3"
-			(uuid "452a7e78-e23c-4eb1-9783-fffbcb200cb9")
+			(uuid "128657a1-a523-48e0-be16-81dd36352f58")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "J5")
 					(unit 1)
 				)
@@ -15163,20 +14742,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "d61686f5-460e-4c11-8239-74047fc62486")
+			(uuid "43172a9e-c7c5-4660-a8e2-60ac5fe8abc7")
 		)
 		(pin "2"
-			(uuid "177c78f6-ee7c-4539-bd64-18f066ed5998")
+			(uuid "bf5d698c-af1d-45a6-839b-d19b27199589")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "D4")
 					(unit 1)
 				)
@@ -15260,20 +14833,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "b64979b4-9910-4d8d-afd6-19d02717fb98")
+			(uuid "798099c5-d412-48a9-8586-eefbb94480f1")
 		)
 		(pin "2"
-			(uuid "e18bde46-ac44-484a-b2e5-83743048d031")
+			(uuid "3ab8acc8-1704-473b-8894-d0cd710b9ac4")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "D6")
 					(unit 1)
 				)
@@ -15346,17 +14913,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "b25cb09c-3c3a-4d1d-96ba-179c2a4294de")
+			(uuid "799c8277-7f8a-4d20-ade9-538430dac909")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "#PWR098")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR098")
 					(unit 1)
 				)
@@ -15432,17 +14993,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "764a3629-24f3-40e7-8864-1ea0c27e1ad1")
+			(uuid "5163a659-3079-4065-a865-b5aa53d140cc")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "J13")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "J13")
 					(unit 1)
 				)
@@ -15515,17 +15070,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "f38d6ccc-089c-4ee1-ab2e-21c56741d443")
+			(uuid "37c062c2-0321-401b-88b5-32a9d0967636")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "#PWR0109")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR0109")
 					(unit 1)
 				)
@@ -15600,20 +15149,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "74d009d8-8241-4684-ac76-8d89b200770b")
+			(uuid "d9e35b4a-775a-47f9-994b-5be27aa1262c")
 		)
 		(pin "1"
-			(uuid "179dbe06-c1f3-45b9-b897-2865712fa6af")
+			(uuid "4ba8b103-0101-4569-8772-cdafa38ab502")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "R10")
 					(unit 1)
 				)
@@ -15686,62 +15229,56 @@
 			)
 		)
 		(pin "3"
-			(uuid "5b329814-f600-45eb-93fb-ca231724b4a7")
+			(uuid "cb3efd5b-542e-4522-91ec-497d66ea3c7f")
 		)
 		(pin "2"
-			(uuid "4328126a-9d02-413c-a1a3-81c70321298a")
+			(uuid "fd02d833-bcab-4fc5-a6b8-86f9fc682721")
 		)
 		(pin "6"
-			(uuid "452d4236-a48b-40e5-bd53-a8eeedf0fc85")
+			(uuid "e6227a96-a710-4efe-89dd-bae3e4e9ebd1")
 		)
 		(pin "4"
-			(uuid "b647585a-8d0c-46d0-a313-3b90d9f6d4a5")
+			(uuid "acfd6ba1-969d-4dbb-af2e-a6c9bda7c3a2")
 		)
 		(pin "16"
-			(uuid "3397d250-bb9a-4317-b645-7560c78c6f23")
+			(uuid "f0ff33ff-e0e5-4b8f-bb7c-09ffde818c66")
 		)
 		(pin "9"
-			(uuid "b6854c44-08ef-4b04-8165-c3f416894ffb")
+			(uuid "cdc96de0-f5ca-4e54-8948-48c150c084ba")
 		)
 		(pin "1"
-			(uuid "b8a4b6dc-3a71-48dc-b2bc-6745aed70428")
+			(uuid "d2d2b379-da15-4a7d-a8a4-846722b71acc")
 		)
 		(pin "8"
-			(uuid "e8b84105-5299-4d59-ad1f-e9290b776c4f")
+			(uuid "ce4e6a88-6bab-4819-beeb-e45e5d6ebca5")
 		)
 		(pin "5"
-			(uuid "6043989c-43fc-41e3-a224-bae045793042")
+			(uuid "90b4778a-f6dc-4b7d-8fd9-1938557bcc61")
 		)
 		(pin "7"
-			(uuid "1a73c729-87a3-4c6e-b999-eda94fca187c")
+			(uuid "fadc8f9a-c6f8-49be-a749-8652950703ac")
 		)
 		(pin "15"
-			(uuid "7032e2ea-b667-4fd2-aae5-5838780041a8")
+			(uuid "ee466fb1-8bfc-4de7-844e-548557c85d84")
 		)
 		(pin "12"
-			(uuid "238e2c68-3c0a-45f3-a1df-1528d90689c5")
+			(uuid "d1ef864e-c8bc-4b4e-9c07-3b57c797b72b")
 		)
 		(pin "13"
-			(uuid "e2c222e6-28c2-4bad-98ae-78258e951691")
+			(uuid "6b29348b-68c4-490d-90cc-9b42f469d15a")
 		)
 		(pin "11"
-			(uuid "76a3e92f-c11e-4110-9ff9-2fc5fc6c74ce")
+			(uuid "6cd55c7c-d472-40ed-98c7-d2934c063d94")
 		)
 		(pin "14"
-			(uuid "582b7a6d-65b6-4a92-a5e6-180a2ff93750")
+			(uuid "768c4e21-8c85-42b7-a81e-ea1dd06381fe")
 		)
 		(pin "10"
-			(uuid "0526feb5-6e8e-4040-aa3b-2fb679ff1e24")
+			(uuid "9c32095a-9f73-4c8f-bf8b-2a2cd8feb88d")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "U3")
 					(unit 1)
 				)
@@ -15825,20 +15362,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "a07822a1-735a-4c6b-a8bb-0ce57af7def7")
+			(uuid "bbf62d7b-cc6c-4766-ad76-1846a9a2325d")
 		)
 		(pin "2"
-			(uuid "99b51be0-3e7e-4684-a065-58f5eb8a9792")
+			(uuid "d22e94d9-64c1-4816-86ce-ecfafe60c33a")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "D21")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "D21")
 					(unit 1)
 				)
@@ -15910,23 +15441,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "c751a62f-95f4-447e-b727-6e893379edf2")
+			(uuid "5ebc1843-e055-4a21-9c59-ed551310236d")
 		)
 		(pin "2"
-			(uuid "31bccd38-38b9-491a-ac27-198462d46e71")
+			(uuid "b14de620-c57d-4f40-893a-5da41220c61f")
 		)
 		(pin "3"
-			(uuid "180f6069-4fa9-4894-a374-ea491c4a7fe0")
+			(uuid "1f8c7495-110b-454a-8484-271805dd514d")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "J2")
 					(unit 1)
 				)
@@ -15999,17 +15524,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "407b2cea-e2af-40a8-8bfe-40cf18a3b062")
+			(uuid "8573de30-3614-40a3-a4c4-4b39ca36dc14")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "#PWR0112")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR0112")
 					(unit 1)
 				)
@@ -16084,17 +15603,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "d9ed897d-0497-43eb-a1df-36bc6a40e292")
+			(uuid "9588bd1a-60da-49b8-805f-b879d0e81861")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "#PWR081")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR081")
 					(unit 1)
 				)
@@ -16167,20 +15680,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "034d4973-32bd-4a1c-b065-495e1c4b074d")
+			(uuid "ac787bb5-0c8b-4ef2-91b3-27d3297cee99")
 		)
 		(pin "1"
-			(uuid "f547c6d5-b247-4239-99d3-ca27a2e5206c")
+			(uuid "5e816a32-0879-400f-8f85-0d3d96f80c5e")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "R40")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "R40")
 					(unit 1)
 				)
@@ -16255,32 +15762,26 @@
 			)
 		)
 		(pin "6"
-			(uuid "42d6baf6-854d-4bb7-81e1-f21c7ecf5455")
+			(uuid "ee51790d-e4dc-4a49-9c1d-3bb094b09436")
 		)
 		(pin "5"
-			(uuid "b9031c62-6960-41de-81e7-43a311012a0c")
+			(uuid "27b5f8e7-d48d-445d-a250-248c40c35567")
 		)
 		(pin "3"
-			(uuid "590415bb-8bcf-4c93-8b38-070022ef67e5")
+			(uuid "7e6111a7-4de0-40bf-a18e-07216ab9c92b")
 		)
 		(pin "4"
-			(uuid "be5bcb42-2ec9-4b22-8bc2-a4c9724801f2")
+			(uuid "a2ce123d-7e99-4627-bf83-2fd132a8afbf")
 		)
 		(pin "2"
-			(uuid "f18b0aa2-c78e-4d42-9474-0de761a724fb")
+			(uuid "c3907127-06ec-4661-b09e-f2fe7f1f47c6")
 		)
 		(pin "1"
-			(uuid "e4a732b9-5da9-4ad2-afa2-5d6c6f50759b")
+			(uuid "2c0d595f-2687-4656-8f58-e8bc0f95fb3a")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "J7")
 					(unit 1)
 				)
@@ -16353,17 +15854,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "4bcfa8a1-3da7-41b8-bdcb-16b3595e5b24")
+			(uuid "4f71efd1-a151-414c-9ec5-7d214e5a629f")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "TP16")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "TP16")
 					(unit 1)
 				)
@@ -16438,32 +15933,26 @@
 			)
 		)
 		(pin "6"
-			(uuid "1693aceb-9105-46b7-a121-d874eaa29512")
+			(uuid "92f7eef5-8165-42c1-a4fe-d63d0e881f0c")
 		)
 		(pin "5"
-			(uuid "7c4c40a5-900c-4a38-857c-8a81b040f110")
+			(uuid "ecd9bad0-63d6-43c7-8b5b-bd1b93dadf0b")
 		)
 		(pin "3"
-			(uuid "00c8dc6d-6c61-4918-a49c-74b631a6b043")
+			(uuid "6040858b-adae-438c-b071-9fdbbe263bd1")
 		)
 		(pin "4"
-			(uuid "bdd4c764-0c5d-40ae-8d5a-acf27c350b22")
+			(uuid "98aa26a1-d14d-4264-b865-d759c2e4bd41")
 		)
 		(pin "2"
-			(uuid "e5467d55-cee4-483e-a60d-9382ad90ec82")
+			(uuid "eca1f305-b4f1-48a7-a9a9-6f4936206916")
 		)
 		(pin "1"
-			(uuid "80af5cc4-bfe4-4a41-ad47-6344272974a6")
+			(uuid "c2230298-beef-4816-ac8a-1784e9741977")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "J10")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "J10")
 					(unit 1)
 				)
@@ -16538,20 +16027,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "82ecebe6-7c5f-4d3a-b2f3-daa0d99d5dbe")
+			(uuid "772f51e2-5aeb-40a2-bd22-fdc007523841")
 		)
 		(pin "1"
-			(uuid "38784836-09b9-434f-808b-465fdc8786ae")
+			(uuid "0b9a1ea6-3f57-48c7-b539-2fbf030220eb")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "C12")
 					(unit 1)
 				)
@@ -16624,17 +16107,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "e63afcfb-9dcd-46dd-80a9-5023a13c95cb")
+			(uuid "a70044e7-c076-4cdc-861f-432ce5a98b47")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "#PWR0115")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR0115")
 					(unit 1)
 				)
@@ -16709,20 +16186,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "ef0e4299-6071-4c88-93e3-2341b04e639d")
+			(uuid "7cb909a8-e0bf-43d2-ba05-28623db378ec")
 		)
 		(pin "2"
-			(uuid "2ff58e46-111e-41e9-9178-e94b69d3b623")
+			(uuid "f0ee8a92-e9a4-46f3-bc2f-8809cfa2e411")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "R11")
 					(unit 1)
 				)
@@ -16797,32 +16268,26 @@
 			)
 		)
 		(pin "6"
-			(uuid "373f5c68-a31d-44e8-9ba8-5ef1ce3bd9b9")
+			(uuid "3b55af17-9df7-49bb-a19c-f9bac29f8fb6")
 		)
 		(pin "5"
-			(uuid "63af5b09-c4fd-441b-91a8-c6e161b3a564")
+			(uuid "1b06ed03-1b38-4b30-b461-aa3b557556d6")
 		)
 		(pin "3"
-			(uuid "03280b88-f531-4e0e-bbfd-1b14f00038eb")
+			(uuid "a22736a5-0d81-4752-9c1c-29f4ddc3ff91")
 		)
 		(pin "4"
-			(uuid "1aac8cc4-c7ff-4e1c-a9c9-6a4a4d0960ed")
+			(uuid "0e7b65fc-c896-4c9c-8617-1fbfb3e80214")
 		)
 		(pin "2"
-			(uuid "f67537d7-f8a2-4889-bdc5-66e598eb073c")
+			(uuid "6b0939b1-ac47-4b29-90f4-4765f1c9be4a")
 		)
 		(pin "1"
-			(uuid "4ed136c8-73d2-4ab8-87bb-70e3257c2007")
+			(uuid "bbdba99c-9d75-4b44-b0e1-9cc5b6a66424")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "J1")
 					(unit 1)
 				)
@@ -16895,17 +16360,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "2d98cc01-e9fb-4c6f-81af-aa6608443f0d")
+			(uuid "1ad5922d-e1e1-4ca4-a3cd-2c998b6aec61")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "#PWR0103")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR0103")
 					(unit 1)
 				)
@@ -16980,20 +16439,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "cb8cf9c4-9964-4a7d-ac25-30110e98c6d0")
+			(uuid "955f931e-4fbb-45e3-b472-e72b45065d37")
 		)
 		(pin "1"
-			(uuid "332418f9-dd67-4975-b322-b6958bedd692")
+			(uuid "d2cf7c4e-7a01-42e8-97d5-fad0af112873")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "C8")
 					(unit 1)
 				)
@@ -17066,62 +16519,56 @@
 			)
 		)
 		(pin "3"
-			(uuid "1e96ba69-c30f-4b6b-922b-bac0190e45ef")
+			(uuid "357b2667-4e78-42cf-9721-ebc9b47e17db")
 		)
 		(pin "2"
-			(uuid "147a3b93-24de-4d65-b538-49f0be22131e")
+			(uuid "8b4aa3db-59d1-4bdb-b3e4-8d02d8446276")
 		)
 		(pin "6"
-			(uuid "d24003bf-91ce-43a8-8d0d-38d4c76fe033")
+			(uuid "bfc33d5e-bf0a-46a3-863b-e3800b9c6ee8")
 		)
 		(pin "4"
-			(uuid "2d2d2a14-7248-467a-a288-da857576db68")
+			(uuid "a22e315e-0022-4080-ba86-bd708eee8efd")
 		)
 		(pin "16"
-			(uuid "5b5383e7-af34-41dd-8d96-9cbd22db0e71")
+			(uuid "6da524a4-7cf6-48d4-8615-652f4ade1b0b")
 		)
 		(pin "9"
-			(uuid "675583dc-e1c2-46db-8e17-92c7fc0f88af")
+			(uuid "4c4654c4-fd25-4214-a056-253cc88dfe73")
 		)
 		(pin "1"
-			(uuid "e7a3678b-025f-4189-b2cb-d0b4b1d23011")
+			(uuid "428767fb-0ebf-445a-b59b-5eb1a8b081ca")
 		)
 		(pin "8"
-			(uuid "b60ec187-bcdd-402a-846e-2b3495f8b668")
+			(uuid "85819c99-d73c-45f7-9bdb-ce5a17cbaa25")
 		)
 		(pin "5"
-			(uuid "8d7712c0-8ac1-4eb8-a7b6-9c7c0e8d550a")
+			(uuid "98d1a698-d8f8-4f42-8878-527525422198")
 		)
 		(pin "7"
-			(uuid "89d47e6b-0549-4189-898c-32c68831229f")
+			(uuid "8549904e-25fd-4cf8-bc5e-c16550ec0202")
 		)
 		(pin "15"
-			(uuid "23512d81-601c-4218-b1dd-e515a081e3eb")
+			(uuid "df759ec7-a109-4529-8096-d54003cdeb51")
 		)
 		(pin "12"
-			(uuid "66ea8bda-da02-438a-9a0d-288e67ae72cc")
+			(uuid "416381cc-8b52-4d62-9021-946293d16aab")
 		)
 		(pin "13"
-			(uuid "ace4a974-c3b6-44c3-90e0-e625b021c594")
+			(uuid "c660afe7-5bea-40da-b0e7-ff171c6d07f8")
 		)
 		(pin "11"
-			(uuid "c12489aa-4e26-4840-918e-291bd9117153")
+			(uuid "75854f87-64a2-45ed-8228-f867c70d4731")
 		)
 		(pin "14"
-			(uuid "0a8ea5c5-a63d-4ac8-a105-4eaa3976d828")
+			(uuid "110014d1-704b-4055-81c6-5d97dc60f5f8")
 		)
 		(pin "10"
-			(uuid "63cd01d2-9294-4c3d-9ab8-ef934d213c3c")
+			(uuid "8895c433-8565-442d-a1f0-8daaff50c497")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "U11")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "U11")
 					(unit 1)
 				)
@@ -17193,20 +16640,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "50cc9337-a51b-4239-9494-d5747efa943f")
+			(uuid "a8bcc1ea-95d8-42f6-adf0-f324a3bbf4df")
 		)
 		(pin "1"
-			(uuid "ef5e846a-9887-4929-b678-7a41b89d0a5c")
+			(uuid "6caf0e97-b7f4-48f0-aec0-a05c42993bb1")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "R39")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "R39")
 					(unit 1)
 				)
@@ -17280,17 +16721,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "9adeddf2-af6e-44c9-b748-dd00fcbd956f")
+			(uuid "a11d62f7-d24f-44b7-a843-4a6dcb61ed2f")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "TP18")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "TP18")
 					(unit 1)
 				)
@@ -17362,23 +16797,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "8d653ee0-033b-4f59-aca0-01dfdcaa7e2b")
+			(uuid "4a94627c-f1a9-47b2-9db6-83433f41b7e5")
 		)
 		(pin "2"
-			(uuid "9fd09b42-0778-4d09-9467-c5beea0e0ba9")
+			(uuid "438a11d0-8cc2-40ba-890f-0552d262e5b9")
 		)
 		(pin "3"
-			(uuid "3b73cb8e-58ce-4c20-8648-59929804104d")
+			(uuid "ff3eed5b-af0e-4cd1-8201-482dd7aa54ee")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "J8")
 					(unit 1)
 				)
@@ -17451,17 +16880,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "32bf4613-7962-4857-bc3d-4f13d28fc552")
+			(uuid "531e5da2-d962-4d48-a823-1d5800f0fc94")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "#PWR092")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR092")
 					(unit 1)
 				)
@@ -17534,62 +16957,56 @@
 			)
 		)
 		(pin "3"
-			(uuid "25cf2641-8240-4d2a-aa41-3faefded66a0")
+			(uuid "4af19f0f-8002-4afb-bfa7-e4de65d5aea5")
 		)
 		(pin "2"
-			(uuid "e6a7f0b0-7de3-48dc-8c9b-f5c59d3dfa10")
+			(uuid "98144680-23e8-4f93-bfbb-b3944692fa40")
 		)
 		(pin "6"
-			(uuid "eb45c2f4-5322-43ac-a02e-2086a504c1b5")
+			(uuid "7ff0d028-65a7-40ee-a3f1-ce982d6e19e1")
 		)
 		(pin "4"
-			(uuid "894467e5-8c82-4d7f-a058-8a4a0c7c8307")
+			(uuid "e4e2b6f5-e775-4ad9-b94b-b0f625f4d4f9")
 		)
 		(pin "16"
-			(uuid "17361fba-bde8-456a-b425-2e1b22e2ae8c")
+			(uuid "4faed920-4e57-410e-bdfb-80944a2b0442")
 		)
 		(pin "9"
-			(uuid "131002d9-1692-463b-ab85-cc4289700749")
+			(uuid "308bdd1a-c545-465a-be7d-64609f5d1f9b")
 		)
 		(pin "1"
-			(uuid "59e827bc-3fbb-4c3f-b86b-4420f52224d4")
+			(uuid "04992342-f967-4095-9074-4edd1b04a59f")
 		)
 		(pin "8"
-			(uuid "c8f78f15-f170-4716-a00a-3539e4717853")
+			(uuid "cb48faf8-adb4-450e-b3d9-a4330b5c0663")
 		)
 		(pin "5"
-			(uuid "bace737f-d40d-4fcb-8487-513574294695")
+			(uuid "ccc78ae8-d6a7-4cf2-99bd-607fc0b8ed32")
 		)
 		(pin "7"
-			(uuid "a583fd58-57d9-4627-b53a-5602520b0a45")
+			(uuid "d164dfd0-ca12-4b5c-9f43-873596e5b2a1")
 		)
 		(pin "15"
-			(uuid "92a122c6-c652-494b-a420-c8619905709f")
+			(uuid "2ea2c482-352b-4352-b147-d3b85dce2c94")
 		)
 		(pin "12"
-			(uuid "e22343a8-159a-499f-9a1f-30d327b09e8f")
+			(uuid "834bc8ed-94ef-4b3a-805f-9f8ded368b96")
 		)
 		(pin "13"
-			(uuid "22ff7038-5919-48ff-9a35-979df4f29c34")
+			(uuid "f3387986-a5b1-4c89-8d03-ce97b8a9f3ce")
 		)
 		(pin "11"
-			(uuid "0b0d032e-02c6-4148-8adc-1db6e42e4d0b")
+			(uuid "0ea6551b-ab42-4ab9-8f63-cfcbb8479171")
 		)
 		(pin "14"
-			(uuid "35691dc7-88ac-4c27-b7b0-52b38b005c43")
+			(uuid "5fec5699-6fbf-4b06-abe4-54819b605e2b")
 		)
 		(pin "10"
-			(uuid "5ba82bba-c73f-4ffa-b4a8-3fb4240b6722")
+			(uuid "4c3a51eb-3e63-422d-8d25-fb7a923de205")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "U12")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "U12")
 					(unit 1)
 				)
@@ -17684,20 +17101,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "1bc3366d-e345-43eb-b55f-e69402b81a59")
+			(uuid "e4bf0676-6943-4551-9e8a-72fc7f98523e")
 		)
 		(pin "2"
-			(uuid "97510963-f52c-4689-ba21-90549ddd0f2f")
+			(uuid "80971941-09e6-481c-be65-a459e4202cf3")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "D1")
 					(unit 1)
 				)
@@ -17770,17 +17181,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "64253060-2018-499b-ad79-9cfd09d882ff")
+			(uuid "c2400095-d099-444c-8e2e-3f22929ad8fb")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "#PWR090")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR090")
 					(unit 1)
 				)
@@ -17855,32 +17260,26 @@
 			)
 		)
 		(pin "6"
-			(uuid "a8c5a405-36b8-4b78-a86b-aea26e5003d7")
+			(uuid "4d2bc653-18c9-4044-a792-9ee19bb18417")
 		)
 		(pin "5"
-			(uuid "2962d6da-18f6-4c01-9242-33a869d2d976")
+			(uuid "7fa54e2b-d861-4eee-81f0-69e1e86f8c58")
 		)
 		(pin "3"
-			(uuid "6c98d520-408c-4fa8-bb91-0708b8e3be74")
+			(uuid "ba6ab128-4721-43b6-be92-dc307147db70")
 		)
 		(pin "4"
-			(uuid "cbab5796-e913-4a80-87bd-00e035a6e4af")
+			(uuid "fcaadbdc-a87a-4b62-a154-7df22ed272a2")
 		)
 		(pin "2"
-			(uuid "d3ba57b5-748d-4117-b1b4-62eead123d7b")
+			(uuid "70cf369a-8879-4b41-a99c-e9f924227969")
 		)
 		(pin "1"
-			(uuid "552d14c7-829a-4a10-a003-24dc772d62bc")
+			(uuid "b4894dca-de3d-4549-b5e2-13e14213fa59")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "J4")
 					(unit 1)
 				)
@@ -17952,17 +17351,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "10cb8fb1-1030-40cc-a2cc-56ff32311edb")
+			(uuid "4ab1e629-ab16-4ec7-8a5e-b09fa035cc5f")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "TP23")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "TP23")
 					(unit 1)
 				)
@@ -18037,17 +17430,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "c3b4276e-4c48-4957-98f3-d2f324aea66e")
+			(uuid "19657b75-6dfb-464e-9ffe-66463a7e4785")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "J21")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "J21")
 					(unit 1)
 				)
@@ -18119,20 +17506,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "a4cf5d4b-2587-4115-acfd-bc54d854ff28")
+			(uuid "b7ec06bd-edfb-43fb-b728-44493f671a2a")
 		)
 		(pin "1"
-			(uuid "530a3c11-bb07-44e0-b4f3-738b2940e037")
+			(uuid "95078ab5-7044-4f9e-825d-fba612689b72")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "R5")
 					(unit 1)
 				)
@@ -18205,17 +17586,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "61c95225-c214-4999-a852-09541289558d")
+			(uuid "61834ccb-d91d-490c-a507-dde0a9ec9c8c")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "#PWR091")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR091")
 					(unit 1)
 				)
@@ -18288,17 +17663,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "cad16582-f904-449a-9988-6f890b85ff4d")
+			(uuid "c9a7669b-833f-4405-9c59-e57c4c38665a")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "#PWR0102")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR0102")
 					(unit 1)
 				)
@@ -18371,17 +17740,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "dff50907-b3d6-4f9b-b27f-e38d737db45b")
+			(uuid "11fd6561-87b1-4403-b0ee-a50765eedc96")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "#PWR093")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR093")
 					(unit 1)
 				)
@@ -18465,20 +17828,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "2639ba82-4d48-46e8-a73b-8aad5f3c4cbe")
+			(uuid "b5d9f290-5a21-4476-96da-52ab8b63903c")
 		)
 		(pin "2"
-			(uuid "c08a937c-8d23-4177-a4da-8687a53c951c")
+			(uuid "709e8c43-9128-40a4-a4e4-58ce3f177692")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "D24")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "D24")
 					(unit 1)
 				)
@@ -18553,17 +17910,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "1d9df0eb-9f5e-47f5-9686-7b7214b52f8f")
+			(uuid "eb773df0-7bcf-4a75-9f23-dbf4ca5f90f4")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "#PWR078")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR078")
 					(unit 1)
 				)
@@ -18636,23 +17987,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "e3653ae4-cd7b-4bcd-9492-54e442e28a32")
+			(uuid "81706e38-1806-4573-b6d0-4848c14f8374")
 		)
 		(pin "2"
-			(uuid "a3809458-e2f5-4e65-9d89-a06659d35703")
+			(uuid "9f43d628-0ba6-4304-8026-5daa9caa5633")
 		)
 		(pin "3"
-			(uuid "2967d237-d34b-499f-9228-f57161a53f29")
+			(uuid "dd817e6a-fbe0-447f-8c6b-6609f3ea5bb5")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "J3")
 					(unit 1)
 				)
@@ -18727,16 +18072,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "fa0db13c-2d4c-4392-ac7a-f840c06e0645")
+			(uuid "7a481dc4-fe0f-4774-9c75-7750c4b2b829")
 		)
 		(pin "4"
 			(uuid "7f53578e-42f8-42ea-a9ac-0a541d83f218")
 		)
 		(pin "2"
-			(uuid "8049abc6-d28c-4861-a207-a55ec2fcbad6")
+			(uuid "4382ef1a-a22c-4bd1-9f49-46d998a2d550")
 		)
 		(pin "3"
-			(uuid "7089aa50-cba9-4887-865f-bf7dda95ed32")
+			(uuid "46f73a9a-40df-439a-bc17-5c8c273bbc21")
 		)
 		(pin "2"
 			(uuid "c980f79a-2d66-4add-a64a-d399e8a0877a")
@@ -18747,12 +18092,6 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "Q8")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "Q8")
 					(unit 1)
 				)
@@ -18825,17 +18164,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "21b8171f-bf97-40a4-ab94-66b17e9570a5")
+			(uuid "55a09029-e3b2-44b3-8228-f20114c73788")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "#PWR0100")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR0100")
 					(unit 1)
 				)
@@ -18907,20 +18240,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "57d8d781-2a27-47ff-938a-fde741b5ff0b")
+			(uuid "aa03c860-5a58-4678-aafa-b7769c29bf25")
 		)
 		(pin "1"
-			(uuid "b5f48abb-6dec-4d07-a0b4-7c7f31228191")
+			(uuid "886cdfb8-6ca6-4f90-b66f-3dc1f002dc86")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "R41")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "R41")
 					(unit 1)
 				)
@@ -18993,23 +18320,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "72bef8d5-d933-478b-80f8-a2673b7b02c8")
+			(uuid "9e877d2e-1d3b-4a48-b8c2-8e6dbcf489fb")
 		)
 		(pin "2"
-			(uuid "83829eeb-6ed7-4864-acc1-e3c70fac1575")
+			(uuid "63b06001-48a8-464e-80d9-8a259a6f6a04")
 		)
 		(pin "3"
-			(uuid "4fa566f8-1d65-4322-aef5-03815eeecad3")
+			(uuid "f907a25c-d295-4afa-b0c6-640ae10825ae")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "J16")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "J16")
 					(unit 1)
 				)
@@ -19081,23 +18402,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "12311853-8834-458e-87f0-a4e50b9caed5")
+			(uuid "d1022d2e-cfcf-466f-a532-225116e4d1d6")
 		)
 		(pin "2"
-			(uuid "d5801252-adce-4761-879c-d9a3a6f8cbdf")
+			(uuid "b601a7a6-591d-4771-99e9-ab64f5970c4c")
 		)
 		(pin "3"
-			(uuid "b0c0a827-a33e-435a-9f73-fe37ca62e6e8")
+			(uuid "c2a06f78-f80e-43a6-b3b2-2e6e0c700c81")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "J11")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "J11")
 					(unit 1)
 				)
@@ -19172,20 +18487,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "010d6477-9c99-44f4-a64b-74cdc59a052e")
+			(uuid "42ec227e-7fde-4a12-820c-fe88126a2e75")
 		)
 		(pin "1"
-			(uuid "5a9bb650-5bb6-49bb-a521-47221abd63b9")
+			(uuid "aca37094-dd18-4b61-b637-f974675a9d55")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "R12")
 					(unit 1)
 				)
@@ -19257,20 +18566,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "7e7e8f7e-5318-4626-8522-0c13c65a6deb")
+			(uuid "c820e91c-ea7b-4ebe-b545-162521c75f42")
 		)
 		(pin "1"
-			(uuid "8f0aa015-556b-47e7-a55f-a7f885ee33dc")
+			(uuid "dc9810d3-02ad-42b4-90ed-a49b508a169d")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "R3")
 					(unit 1)
 				)
@@ -19345,20 +18648,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "68b87454-6c34-447c-8d6a-642e14fdd535")
+			(uuid "24f22fea-8694-4b09-a779-fdd511026815")
 		)
 		(pin "2"
-			(uuid "45dc2ee1-d24b-4570-a69b-81bb01f64229")
+			(uuid "98871e6b-c02b-4872-847b-c4cf76f4a06d")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "R45")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "R45")
 					(unit 1)
 				)
@@ -19431,17 +18728,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "94223c71-d7a1-44f1-a49a-3b243b8246dc")
+			(uuid "df005688-5ba6-4757-958e-e71c6ea16b8d")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "TP19")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "TP19")
 					(unit 1)
 				)
@@ -19536,20 +18827,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "6c2f1f1c-50c1-43ff-b278-83b0b92708d0")
+			(uuid "0012de38-3e0b-4e4b-a206-604254b7e5f8")
 		)
 		(pin "2"
-			(uuid "935286d5-ecf8-4679-82b8-8b3353a0fa2d")
+			(uuid "3deffe87-0018-444d-b032-d8f8947d4f08")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "D2")
 					(unit 1)
 				)
@@ -19624,17 +18909,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "936a15a0-a513-4c09-ba20-d9ba1ea6fd01")
+			(uuid "63e1c82a-e6be-4643-b22d-8a3ea7ec2473")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "#PWR066")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR066")
 					(unit 1)
 				)
@@ -19706,20 +18985,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "9704487b-b558-40b5-9f20-2c95c2697045")
+			(uuid "71ee22b6-1417-451c-834d-ea9e5e1748de")
 		)
 		(pin "1"
-			(uuid "faab9198-a27a-4457-acc8-549e8bf3fbc9")
+			(uuid "3a034400-d3ca-4112-bf0b-0e334f469bed")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "R38")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "R38")
 					(unit 1)
 				)
@@ -19792,17 +19065,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "71904be3-2dad-4fae-8e0c-d0ca35acda1b")
+			(uuid "31df69b1-66c1-4331-854e-6922c7c899af")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "#PWR0114")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "#PWR0114")
 					(unit 1)
 				)
@@ -19886,20 +19153,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "5a74f89b-db37-47a4-b4a6-d56b6e297434")
+			(uuid "9e6c6a52-f895-4372-b6bd-5261912d000a")
 		)
 		(pin "2"
-			(uuid "422a64f8-73c9-4dbf-84cc-04e1ae849895")
+			(uuid "8719ea9e-2b17-4fe6-b057-7d1057140bd5")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "D5")
 					(unit 1)
 				)
@@ -19972,23 +19233,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "27a7b617-91c7-473c-befc-d9a16afbe62b")
+			(uuid "e0a0f123-f524-4c82-a4c0-c7d756c90f53")
 		)
 		(pin "2"
-			(uuid "a0af2a15-988b-4246-a419-a5982fe44f60")
+			(uuid "24351686-cee4-4b86-ab67-2eaeb4f08817")
 		)
 		(pin "3"
-			(uuid "62c10dd3-4641-4d6f-b7d0-17989ac5522a")
+			(uuid "2425f8a8-290c-4177-918e-ed6041820786")
 		)
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
-					(reference "J12")
-					(unit 1)
-				)
-			)
-			(project "плата_полумоста"
-				(path "/e8d3ec11-291e-465b-a317-51ea9fde50d1/26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d"
 					(reference "J12")
 					(unit 1)
 				)

@@ -648,7 +648,7 @@
         "uuid": "96bc687b-1f0f-4b2f-95bf-a0725acd0403"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR22,#PWR31-34,#PWR69-72,#PWR84-87,#PWR118-146,D7-14,D25-30,J23-41,R19-31,R49-60,U6,U8,U10,U13-14,C5-6,C9-10,C14-15,Q9-12,TP25-36,SW1",
     "variants": []
   },
   "sheets": [
@@ -667,6 +667,10 @@
     [
       "08e291a1-59e7-456b-83cd-460afac67c80",
       "Соединение с МК"
+    ],
+    [
+      "0cf9b40b-711a-443a-9247-49bdbee591a5",
+      "Защита драйверов"
     ]
   ],
   "text_variables": {},
