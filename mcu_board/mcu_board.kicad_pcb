@@ -846,5 +846,233 @@
 			)
 		)
 	)
+	(footprint "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-30Mxx"
+		(layer "F.Cu")
+		(uuid "e8f491d3-e7d1-4b9f-a23c-4cd123ed564c")
+		(at 46.03 79.335)
+		(descr "ACDC-Converter, 30W, Hi-Link, HLK-30Mxx, HLK-30MxxC, THT, https://h.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%9730W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%9130W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%A7%84%E6%A0%BC%E4%B9%A6V1.6.pdf")
+		(tags "ACDC-Converter 30W THT Hi-Link board mount module")
+		(property "Reference" "U2"
+			(at 25.5 -22.51 0)
+			(layer "F.SilkS")
+			(uuid "7c85bc7f-29dd-4854-acd8-87f41d583455")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "HLK-40M24"
+			(at 25.5 14.89 0)
+			(layer "F.Fab")
+			(uuid "409fe7fa-3cec-42ef-ab33-f51f57e3dfbe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6598639a-d8d7-44e7-92a4-8a52863a9ead")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Compact AC/DC board mount power module 20W 5V"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c8b9286-c2e4-4abe-9745-c4abddf5569e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "converter_ACDC_DCDC"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b2aab916-870a-495e-948a-22b1a44ab535")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Converter*ACDC*Hi?Link*HLK?20M*")
+		(path "/ebb8f411-fb08-461c-9009-9e9f132634b1")
+		(sheetname "/")
+		(sheetfile "mcu_board.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "6" "3")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -4.36 -21.67)
+			(end 55.36 -21.67)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5efb5e61-cbc4-4c80-9e77-56809f109c38")
+		)
+		(fp_line
+			(start -4.36 -0.296)
+			(end -4.36 -21.67)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5592362b-6e58-4b24-9e09-5fff66348972")
+		)
+		(fp_line
+			(start -4.36 14.05)
+			(end -4.36 0.296)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4c313b39-c7c0-4416-b2e2-da6d95cdf7d4")
+		)
+		(fp_line
+			(start 55.36 -21.67)
+			(end 55.36 14.05)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "91ce1585-9883-45e5-a371-de3e24003d18")
+		)
+		(fp_line
+			(start 55.36 14.05)
+			(end -4.36 14.05)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "99d7e451-e943-491a-b125-3246ee8056be")
+		)
+		(fp_poly
+			(pts
+				(xy -4.36 0) (xy -4.97 0.44) (xy -4.97 -0.44)
+			)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "41f49635-ee96-4d14-8197-038b418af559")
+		)
+		(fp_rect
+			(start -4.5 -21.81)
+			(end 55.5 14.19)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "78acac88-ce7c-49f0-a326-dfcc009642d2")
+		)
+		(fp_poly
+			(pts
+				(xy -2.25 -20.56) (xy 54.25 -20.56) (xy 54.25 12.94) (xy -3.25 12.94) (xy -3.25 -19.56)
+			)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "d116f426-a9c2-4436-94c3-668c62a02462")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 25.5 -3.81 0)
+			(layer "F.Fab")
+			(uuid "6bfcea5d-a7d0-40da-886f-8aa6529bbc9d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0)
+			(size 2 2.3)
+			(drill 1.3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.125)
+			(net "unconnected-(U2-AC{slash}L-Pad1)")
+			(pinfunction "AC/L_1")
+			(pintype "power_in")
+			(uuid "6667ab49-33a9-4738-a60a-a6ed057c2240")
+		)
+		(pad "2" thru_hole oval
+			(at 0 5.08)
+			(size 2 2.3)
+			(drill 1.3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "unconnected-(U2-AC{slash}N-Pad2)")
+			(pinfunction "AC/N_2")
+			(pintype "power_in")
+			(uuid "7b0bafbd-6af0-4361-a23f-95c009b46254")
+		)
+		(pad "3" thru_hole oval
+			(at 51 -17.78)
+			(size 2 2.3)
+			(drill 1.3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "unconnected-(U2--Vout-Pad3)")
+			(pinfunction "-Vout_3")
+			(pintype "power_out")
+			(uuid "35b02f5a-9239-43b0-9f2d-edcc02bdcc6a")
+		)
+		(pad "6" thru_hole oval
+			(at 51 -10.16)
+			(size 2 2.3)
+			(drill 1.3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "unconnected-(U2-+Vout-Pad6)")
+			(pinfunction "+Vout_6")
+			(pintype "power_out")
+			(uuid "c183d9a5-ee90-48a6-a436-04b855cbff0d")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Converter_ACDC.3dshapes/Converter_ACDC_Hi-Link_HLK-30Mxx.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(embedded_fonts no)
 )
