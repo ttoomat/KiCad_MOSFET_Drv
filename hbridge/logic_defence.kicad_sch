@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "ba2add6b-d051-4246-8c9c-e53e115248ac")
+	(uuid "256f0e12-362f-442a-9e62-101a1dc4fd5d")
 	(paper "A4")
 	(lib_symbols
 		(symbol "74xx:74AHC04"
@@ -5734,7 +5734,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 181.61 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -5745,7 +5745,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/sn54ls279a"
+		(property "Datasheet" "https://static.chipdip.ru/lib/947/DOC005947915.pdf"
 			(at 192.532 54.864 0)
 			(hide yes)
 			(show_name no)
@@ -5856,7 +5856,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 181.61 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -5867,7 +5867,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/sn54ls279a"
+		(property "Datasheet" "https://static.chipdip.ru/lib/947/DOC005947915.pdf"
 			(at 192.532 108.204 0)
 			(hide yes)
 			(show_name no)
@@ -6374,7 +6374,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 181.61 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -6385,7 +6385,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/sn54ls279a"
+		(property "Datasheet" "https://static.chipdip.ru/lib/947/DOC005947915.pdf"
 			(at 192.532 72.644 0)
 			(hide yes)
 			(show_name no)
@@ -6995,7 +6995,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 105.41 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -7932,7 +7932,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 181.61 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -7943,7 +7943,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/sn54ls279a"
+		(property "Datasheet" "https://static.chipdip.ru/lib/947/DOC005947915.pdf"
 			(at 192.532 90.424 0)
 			(hide yes)
 			(show_name no)
@@ -8288,7 +8288,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 155.702 106.68 90)
 			(hide yes)
 			(show_name no)

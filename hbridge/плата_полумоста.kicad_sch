@@ -117,7 +117,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "1e795567-ef7f-4d72-a074-f7d4e429d3ef")
-		(property "Sheetname" "Драйверы 2"
+		(property "Sheetname" "Драйверы refactoring"
 			(at 63.5 37.3884 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -153,7 +153,7 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403"
-					(page "6")
+					(page "2")
 				)
 			)
 		)
@@ -174,7 +174,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "26b17fff-b6f6-426b-bf1d-e9c9dbd28e8d")
-		(property "Sheetname" "драйверы"
+		(property "Sheetname" "драйверы old"
 			(at 60.96 60.2484 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -199,7 +199,7 @@
 		(instances
 			(project "hbridge"
 				(path "/96bc687b-1f0f-4b2f-95bf-a0725acd0403"
-					(page "2")
+					(page "6")
 				)
 			)
 		)

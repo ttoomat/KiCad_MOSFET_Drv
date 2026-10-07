@@ -2715,7 +2715,7 @@
 		(symbol "driver_MOSFET_board_0_1"
 			(rectangle
 				(start -16.51 10.16)
-				(end 10.16 -19.685)
+				(end 10.16 -12.7)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2763,7 +2763,7 @@
 				)
 			)
 			(pin input line
-				(at -19.05 -2.54 0)
+				(at -19.05 -1.27 0)
 				(length 2.54)
 				(name "EN"
 					(effects
@@ -2781,7 +2781,7 @@
 				)
 			)
 			(pin input line
-				(at -19.05 -5.08 0)
+				(at -19.05 -3.81 0)
 				(length 2.54)
 				(name "IN+"
 					(effects
@@ -2798,26 +2798,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at -19.05 -7.62 0)
-				(length 2.54)
-				(name "IN-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin output line
-				(at -19.05 -10.16 0)
+				(at -19.05 -6.35 0)
 				(length 2.54)
 				(name "!FLT"
 					(effects
@@ -2835,7 +2817,7 @@
 				)
 			)
 			(pin output line
-				(at -19.05 -12.7 0)
+				(at -19.05 -8.89 0)
 				(length 2.54)
 				(name "RDY"
 					(effects

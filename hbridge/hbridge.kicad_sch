@@ -3607,6 +3607,12 @@
 		(uuid "a30696bc-6a13-4926-9858-c7613743e4fe")
 	)
 	(junction
+		(at 90.17 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a47dcc87-d04e-42f9-b6f9-2ae27c7bc724")
+	)
+	(junction
 		(at 391.16 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3769,6 +3775,12 @@
 		(uuid "de139c5e-30da-4a9a-b63b-cf8a182d297b")
 	)
 	(junction
+		(at 93.98 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de489213-8f31-477b-984d-c4e3e831352f")
+	)
+	(junction
 		(at 186.69 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3799,22 +3811,10 @@
 		(uuid "ecbcddae-f643-4d23-a481-f7f25363b670")
 	)
 	(junction
-		(at 90.17 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ee872be6-ae8a-4d27-a3b6-d74d2916d610")
-	)
-	(junction
 		(at 238.76 210.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef1d4417-1dab-477c-9eab-dfc931b0cf7d")
-	)
-	(junction
-		(at 92.71 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f735bc65-b6d6-40fb-9310-177a40eb0c68")
 	)
 	(junction
 		(at 251.46 26.67)
@@ -3911,6 +3911,16 @@
 			(type default)
 		)
 		(uuid "010e76fa-954d-4711-9c04-b08f4dfd66cf")
+	)
+	(wire
+		(pts
+			(xy 90.17 82.55) (xy 90.17 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02036a66-0d6f-4af6-b7e2-433f6e7f590b")
 	)
 	(wire
 		(pts
@@ -4444,7 +4454,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 83.82) (xy 92.71 83.82)
+			(xy 72.39 83.82) (xy 93.98 83.82)
 		)
 		(stroke
 			(width 0)
@@ -5864,7 +5874,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 88.9) (xy 90.17 60.96)
+			(xy 90.17 60.96) (xy 90.17 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5924,7 +5934,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 60.96) (xy 86.36 60.96)
+			(xy 90.17 82.55) (xy 95.25 82.55)
 		)
 		(stroke
 			(width 0)
@@ -6694,7 +6704,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 83.82) (xy 92.71 88.9)
+			(xy 93.98 83.82) (xy 93.98 91.44)
 		)
 		(stroke
 			(width 0)
@@ -7364,7 +7374,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 83.82) (xy 92.71 83.82)
+			(xy 96.52 83.82) (xy 93.98 83.82)
 		)
 		(stroke
 			(width 0)
@@ -10473,7 +10483,7 @@
 	)
 	(symbol
 		(lib_id "power:-24V")
-		(at 92.71 88.9 0)
+		(at 93.98 91.44 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -10484,7 +10494,7 @@
 		(dnp no)
 		(uuid "27947076-4eb0-4059-9eee-26c546fde5e4")
 		(property "Reference" "#PWR065"
-			(at 92.71 85.09 0)
+			(at 93.98 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10495,7 +10505,7 @@
 			)
 		)
 		(property "Value" "-15_DRV2_H"
-			(at 85.09 81.28 0)
+			(at 90.932 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10506,7 +10516,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 88.9 0)
+			(at 93.98 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10517,7 +10527,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 88.9 0)
+			(at 93.98 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10528,7 +10538,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-24V\""
-			(at 92.71 88.9 0)
+			(at 93.98 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17117,17 +17127,17 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 86.36 60.96 0)
+		(at 95.25 82.55 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "cc56adc8-8450-4c3d-821a-7807a8fd24dd")
 		(property "Reference" "#PWR090"
-			(at 86.36 64.77 0)
+			(at 95.25 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17138,7 +17148,7 @@
 			)
 		)
 		(property "Value" "+15_DRV2_H"
-			(at 87.376 56.896 0)
+			(at 96.266 78.486 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17148,7 +17158,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 60.96 0)
+			(at 95.25 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17159,7 +17169,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 60.96 0)
+			(at 95.25 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17170,7 +17180,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 86.36 60.96 0)
+			(at 95.25 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
